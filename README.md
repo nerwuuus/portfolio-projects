@@ -1,15 +1,4 @@
-This repository, Excel_reports, contains a collection of Excel files created during my tenure as a PMO Specialist. 
-These tools were developed to support project tracking, reporting, and data visualization, ensuring accurate and timely information for stakeholders.
-
-**Project manager names, project descriptions, and project names have been anonymized to protect sensitive information. PowerQuery connections were removed (unfortunately).**
-
-The repository includes Excel reports with:
-- Macros: Automated scripts to perform repetitive tasks efficiently.
-- Charts and Dashboards: Visual representations of data to facilitate quick insights and decision-making.
-- PowerQuery Connections: Data connections and transformations to integrate and manipulate data from various sources seamlessly. 
-
-  
-**I. Program Board Meeting file description (created in March 2024 and still in use):**
+I. Program Board Meeting file description (created in March 2024 and still in use):
 This report includes various aspects of project management, such as Project Status, Project RAG (Red, Amber, Green) ratings, Milestones, Risks, Issues, and Project Change Requests (PCR). 
 These six reports are downloaded from ServiceNow and uploaded to a dedicated folder on SharePoint. Using PowerQuery, the latest data is integrated into Excel (applied main steps: filter out Excel file names, show the latest uploaded files, keep only the first row).
 
@@ -25,6 +14,3 @@ Hidden Sheets:
 1. VBA: Includes a short work instruction and 7 macros assigned to separate buttons. These macros perform tasks such as removing HTML tags from ServiceNow reports, replacing text in columns with RAG status shortcuts (R, A, G), and refreshing charts.
 2. Projects: Contains data collected and manipulated using PowerQuery.
 3. RAG: Holds data collected and manipulated using PowerQuery.
-
-
-
