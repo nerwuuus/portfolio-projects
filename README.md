@@ -1,5 +1,7 @@
 This repository, Excel_reports, contains a collection of Excel files created during my tenure as a PMO Specialist. 
-These tools were developed to support project tracking, reporting, and data visualization, ensuring accurate and timely information for stakeholders. 
+These tools were developed to support project tracking, reporting, and data visualization, ensuring accurate and timely information for stakeholders.
+
+**Project manager names, project descriptions, and project names have been anonymized to protect sensitive information.**
 
 The repository includes Excel reports with:
 - Macros: Automated scripts to perform repetitive tasks efficiently.
