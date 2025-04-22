@@ -2,6 +2,8 @@
 
 This report includes various reports from ServiceNow such as Project Status, Project RAG (Red, Amber, Green) ratings, Milestones, Risks, Issues, and Project Change Requests (PCR). 
 These six reports are downloaded from ServiceNow and uploaded to a dedicated folder on SharePoint. Using PowerQuery, the latest data is integrated into Excel (applied main steps: filter out Excel file names, show the latest uploaded files, keep only the first row).
+![image](https://github.com/user-attachments/assets/cc658964-1892-4d7e-884b-5ffe49ae16c0)
+
 
 Report structure:
 
