@@ -8,7 +8,7 @@ Report structure:
 Visible Sheets:
 1. Governance Dashboard: Contains 12 charts (e.g., project RAG status, milestone status) and 2 tables (milestones completed and upcoming).
 2. Projects Dashboard: Features a table with project details (e.g., project manager, status, priority, project name).
-3. Milestones: Displays a table with all milestones.
+3. Milestones: Displays a table with all milestones (collected and manipulated using PowerQuery).
 4. Risk: Lists registered risks.
 5. Issues: Contains a table with registered issues.
 6. PCR: Shows a table with registered project change requests.
