@@ -4,6 +4,12 @@ This report includes various reports from ServiceNow such as Project Status, Pro
 These six reports are downloaded from ServiceNow and uploaded to a dedicated folder on SharePoint. Using PowerQuery, the latest data is integrated into Excel (applied main steps: filter out Excel file names, show the latest uploaded files, keep only the first row).
 ![image](https://github.com/user-attachments/assets/cc658964-1892-4d7e-884b-5ffe49ae16c0)
 
+PowerQuery applied steps:
+![image](https://github.com/user-attachments/assets/740ec96e-0300-4da8-b2ca-e0e5502223c1)
+
+PowerQuery queries:
+![image](https://github.com/user-attachments/assets/a176e688-2a38-42ab-a990-2cdb7717043d)
+
 
 Report structure:
 
