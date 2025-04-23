@@ -5,7 +5,7 @@ These tools were developed to support project tracking, reporting, and data visu
 
 **I. Program Board Meeting Excel file description (created in March 2024 and still in use)**
 
-The main reasons for creating this file were:
+The main reasons for creating this Excel file were:
 - lack of access to ServiceNow by some internal stakeholders.
 - Lack of a solution enabling the review of project statuses without obtaining data from multiple reports.
 - The need to create a file that would be presented during status meetings held every two weeks.
