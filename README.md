@@ -23,19 +23,3 @@ f.	Cost per WBS, Cost per employee and Standby cost – self-explanatory, pivot 
 
 ![image](https://github.com/user-attachments/assets/5bfaa7fc-2a3e-40a7-98d3-9b375c17bf05)
 PowerQuery transforms data and extracts month and year from date. Mandays are calculated using Excel formula. 
-For 'HourlyRate' column calculation, I used Copilot to help me generate the below formula:
-
-=LET(
-    value; B2;
-    result1; XLOOKUP(value; 'WFM 2021-2024'!A:A; 'WFM 2021-2024'!C:C; "");
-    result2; XLOOKUP(value; 'WFM 2024'!A:A; 'WFM 2024'!C:C; "");
-    result3; XLOOKUP(value; 'WFM 2025'!A:A; 'WFM 2025'!C:C; "");
-    IF(result1 <> ""; result1; IF(result2 <> ""; result2; result3))
-)
-
-'StandbyWBS' column looks for WBS numbers that are assigned as Standby WBS:
-
-=IFNA(
-INDEX('Standby WBS'!$A$1:$C$9;MATCH([@WBS];'Standby WBS'!$A$1:$A$9;0);3);
-"No")
-
