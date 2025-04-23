@@ -1,7 +1,4 @@
-=IFNA(
-INDEX('Standby WBS'!$A$1:$C$9;MATCH([@WBS];'Standby WBS'!$A$1:$A$9;0);3);
-"No")
-
+For 'HourlyRate' column calculation, I used Copilot to help me generate the below formula:
 
 =LET(
     value; B2;
@@ -10,3 +7,11 @@ INDEX('Standby WBS'!$A$1:$C$9;MATCH([@WBS];'Standby WBS'!$A$1:$A$9;0);3);
     result3; XLOOKUP(value; 'WFM 2025'!A:A; 'WFM 2025'!C:C; "");
     IF(result1 <> ""; result1; IF(result2 <> ""; result2; result3))
 )
+
+
+
+'StandbyWBS' column looks for WBS numbers that are assigned as Standby WBS:
+
+=IFNA(
+INDEX('Standby WBS'!$A$1:$C$9;MATCH([@WBS];'Standby WBS'!$A$1:$A$9;0);3);
+"No")
