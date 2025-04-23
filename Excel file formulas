@@ -1,0 +1,21 @@
+Service Activation Tracker - 'SA Tracker' sheet - 'Days to complete' column formula:
+=IF(F2="";"";
+IF(D2="Cancelled";"Cancelled";
+IF(F2=0;"Undefined";
+IFERROR(
+IF(M2>80%;"Completed";
+ABS(
+LET(varToday;$T$1;
+IF(ISTEXT(F2)=TRUE;"";
+IF(F2<=varToday;"";varToday-F2)))));
+"Breached"))))
+
+Service Activation Tracker - 'Search bar' sheet formula:
+=IFERROR(
+SORT(
+CHOOSECOLS(
+FILTER('SA Tracker'!A2:O300;
+ISNUMBER(SEARCH('Search bar'!D3;'SA Tracker'!B2:B300))+ISNUMBER(SEARCH('Search bar'!D3;'SA Tracker'!A2:A300))+ISNUMBER(SEARCH('Search bar'!D3;'SA Tracker'!C2:C300))+ISNUMBER(SEARCH('Search bar'!D3;'SA Tracker'!D2:D300))+ISNUMBER(SEARCH('Search bar'!D3;'SA Tracker'!E2:E300))+ISNUMBER(SEARCH('Search bar'!D3;'SA Tracker'!F2:F300))+ISNUMBER(SEARCH('Search bar'!D3;'SA Tracker'!M2:M300)));
+1;2;3;4;5;6;12);
+1;1);
+"Not found")
