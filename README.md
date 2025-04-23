@@ -7,12 +7,15 @@ To address this, I developed a Service Activation Tracker Excel file. Whenever r
 It was my first report created that used PowerQuery, defined variables, FILTER formula and multiple nested IFs. 
 
 
+
 ![image](https://github.com/user-attachments/assets/6933b04f-6a7b-42be-a7d8-f245b46db6c1)
 SA Tracker Sheet - the main data
 
 
+
 ![image](https://github.com/user-attachments/assets/d6f6318c-e4e4-45c0-80fc-579b5ed007e0)
 Search bar with conditional formatting
+
 
 
 ![image](https://github.com/user-attachments/assets/3f7e197b-7303-4dc3-b70d-c348d7822e9f)
