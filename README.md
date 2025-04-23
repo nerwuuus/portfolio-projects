@@ -1,4 +1,4 @@
-**I. Program Board Meeting file description (created in March 2024 and still in use)**
+**I. Program Board Meeting Excel file description (created in March 2024 and still in use)**
 
 This report includes various reports from ServiceNow such as Project Status, Project RAG (Red, Amber, Green) ratings, Milestones, Risks, Issues, and Project Change Requests (PCR). 
 These six reports are downloaded from ServiceNow and uploaded to a dedicated folder on SharePoint. Using PowerQuery, the latest data is integrated into Excel (applied main steps: filter out Excel file names, show the latest uploaded files, keep only the first row).
@@ -29,3 +29,10 @@ Hidden Sheets:
 1. VBA: Includes a short work instruction and 7 macros assigned to separate buttons. These macros perform tasks such as removing HTML tags from ServiceNow reports, replacing text in columns with RAG status shortcuts (R, A, G), and refreshing charts.
 2. Projects: Contains data collected and manipulated using PowerQuery.
 3. RAG: Holds data collected and manipulated using PowerQuery.
+
+
+
+**I. Program Board Meeting PowerBI file description (created in March 2024 and still in use)**
+
+![image](https://github.com/user-attachments/assets/5c021ee9-9bb3-40a8-852c-eac85a1461cf)
+
