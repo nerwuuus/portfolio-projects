@@ -1,6 +1,7 @@
-**This Excel file cannot be uploaded to GitHub due to the inclusion of sensitive employee information. Please refer to the screenshots below for details on the file structure and technical details.**
+This branch contains a description of 'All activity reports' Excel file, that I created during my tenure as a PMO Specialist. 
 
-This branch contains a description of 'All activity reports' Excel file, that I created during my tenure as a PMO Specialist. **This Excel report is the biggest that I have ever created. It takes data from 2 different SharePoint repositories and combines them. The result is the report with over 150 000 rows, that contains data such as: employee name, SAP ID, hourly rate, number of hours approved and rejected, project name (WBS name and number).**
+**This Excel file cannot be uploaded to GitHub due to the inclusion of sensitive employee information. Please refer to the screenshots below for details on the file structure and technical details.**
+**This Excel report is the biggest that I have ever created. It takes data from 2 different SharePoint repositories and combines them. The result is the report with over 150 000 rows, that contains data such as: employee name, SAP ID, hourly rate, number of hours approved and rejected, project name (WBS name and number).**
 This file solved the problem with distributed data regarding the registration of working hours in individual months (one month, one separate Excel report). 
 Additionally, this report calculates the cost of each employee from the moment of signing the contract with the client (since 2022) until the present day.
 
