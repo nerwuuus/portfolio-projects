@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/410bafce-0c1b-4b2e-91d4-d6f5d9628922)**This Excel file cannot be uploaded to GitHub due to the inclusion of sensitive employee information. Please refer to the screenshots below for details on the file structure and technical details.**
+**This Excel file cannot be uploaded to GitHub due to the inclusion of sensitive employee information. Please refer to the screenshots below for details on the file structure and technical details.**
 
 This branch contains a description of 'All activity reports' Excel file, that I created during my tenure as a PMO Specialist. 
 This file solved the problem with distributed data regarding the registration of working hours in individual months (one month, one separate Excel report). Additionally, this report calculates the cost of each employee from the moment of signing the contract with the client (since 2022) until the present day.
