@@ -32,7 +32,8 @@ Hidden Sheets:
 
 
 
-**I. Program Board Meeting PowerBI file description (created in March 2024 and still in use)**
+**II. Program Board Meeting Power BI file description (created in March 2024 and still in use)**
 
 ![image](https://github.com/user-attachments/assets/5c021ee9-9bb3-40a8-852c-eac85a1461cf)
 
+Power BI file takes data from Program Board Meeting Excel file. Data is transformed in PowerQuery and visualised.
