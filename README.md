@@ -1,14 +1,5 @@
-This repository contains a collection of my portfolio projects, as well as Excel and Power BI reports created during my tenure as a PMO Specialist. 
-While working as a PMO Specialist, reports were developed to support project tracking, reporting, and data visualization, ensuring accurate and timely information for stakeholders.
+This branch contains Excel (data source), SQL, Power BI and Tableau files. I used data from https://www.kaggle.com/datasets/ahmedabbas757/coffee-sales
 
+Data source file contains transaction records for Maven Roasters, a fictitious coffee shop operating out of three NYC locations. Dataset includes the transaction date, timestamp and location, along with product-level details.
 
-****Projects and reports are stored in separate branches. One branch = one project/one report:****
-- program-board-meeting - Excel and Power BI reports.
-- service-activation-tracker - Excel report.
-- alex-the-analyst-bootcamp - SQL, Power BI and Tableau reports.
-- all-activity-reports - Excel report.
-
-
-
-**Project manager names, project descriptions, and project names have been anonymized to protect sensitive information. PowerQuery connections were removed and are only available as screenshots (steps taken, number of queries).**
-
+Analyzing the data, I wanted to examine how the time of day and year affect purchasing habits in a coffee shop. Analyzing such data can help improve service (e.g., by increasing the number of employees during core hours) and assist with ordering.
