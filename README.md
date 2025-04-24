@@ -25,6 +25,7 @@ Report sheets explanation:
 
 ![image](https://github.com/user-attachments/assets/5bfaa7fc-2a3e-40a7-98d3-9b375c17bf05)
 PowerQuery transforms data and extracts month and year from date. Mandays are calculated using Excel formula. 
+For more advanced formulas, please refer to the 'Excel formulas snippet' file.
 
 
 
