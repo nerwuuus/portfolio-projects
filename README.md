@@ -6,8 +6,7 @@ This branch contains a description of 'All activity reports' Excel file, that I 
 This file solved the problem with distributed data regarding the registration of working hours in individual months (one month, one separate Excel report). 
 Additionally, this report calculates the cost of each employee from the moment of signing the contract with the client (since 2022) until the present day.
 
-The 'All Activity Reports' file compiles data, using PowerQuery, from all 'Time Management' reports, available on SharePoint. The 'Time Management' report is designed to collect and maintain 
-data from SAP in an organized manner. At the beginning of each month, a 'Time Management' report is prepared and uploaded to SharePoint repository. 
+The 'All Activity Reports' file compiles data, using PowerQuery, from all 'Time Management' reports, available on SharePoint. The 'Time Management' report is designed to collect and maintain data from SAP in an organized manner. At the beginning of each month, a 'Time Management' report is prepared and uploaded to SharePoint repository. 
 
 
 ![image](https://github.com/user-attachments/assets/6f9a036b-d50e-4a65-a240-d34df106a696)
@@ -24,8 +23,9 @@ Report sheets explanation:
 'PowerQuery Data' sheet columns structure:
 
 ![image](https://github.com/user-attachments/assets/5bfaa7fc-2a3e-40a7-98d3-9b375c17bf05)
-PowerQuery transforms data and extracts month and year from date. Mandays are calculated using Excel formula. 
-For more advanced formulas, please refer to the 'Excel formulas snippet' file.
+PowerQuery transforms data and extracts month and year from date. Mandays are calculated using simply Excel formula.
+
+****More advanced Excel formulas are available in the 'Excel formulas snippet' file.****
 
 
 
