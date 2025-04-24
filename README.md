@@ -1,4 +1,4 @@
-This repository includes a selection of files/reports I made while completing Alex The Analyst's Bootcamp on YouTube. I focused on SQL, Tableau and Power BI. 
+This branch includes a selection of files/reports I made while completing Alex The Analyst's Bootcamp on YouTube. I focused on SQL, Tableau and Power BI. 
 
 **SQL**
 
