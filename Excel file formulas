@@ -16,11 +16,8 @@ SORT(
 CHOOSECOLS(
 FILTER('SA Tracker'!A2:O300;
 ISNUMBER(SEARCH('Search bar'!D3;'SA Tracker'!B2:B300))+ISNUMBER(SEARCH('Search bar'!D3;'SA Tracker'!A2:A300))
-
 +ISNUMBER(SEARCH('Search bar'!D3;'SA Tracker'!C2:C300))+ISNUMBER(SEARCH('Search bar'!D3;'SA Tracker'!D2:D300))
-
 +ISNUMBER(SEARCH('Search bar'!D3;'SA Tracker'!E2:E300))+ISNUMBER(SEARCH('Search bar'!D3;'SA Tracker'!F2:F300))
-
 +ISNUMBER(SEARCH('Search bar'!D3;'SA Tracker'!M2:M300)));
 1;2;3;4;5;6;12);
 1;1);
