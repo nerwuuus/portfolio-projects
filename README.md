@@ -1,4 +1,4 @@
-This branch contains Excel (data source), SQL, Power BI and Tableau files. 
+Stack: PostgreSQL, VSCode, PowerBi, Excel, Tableau
 
 Data analysis steps performed:
 1. Define Objective: Examine how the time of day and year affect purchasing habits in a coffee shop. Analyzing such data can help improve service (e.g., by increasing the number of employees during core hours) and assist with ordering.
@@ -8,6 +8,7 @@ Data analysis steps performed:
 6. Interpret Results: Draw conclusions from the analysis.
 7. Communicate Findings: Present results clearly with visualizations.
 8. Make Recommendations: Suggest actions based on insights.
+
 
 
 
