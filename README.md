@@ -16,6 +16,7 @@ Data analysis steps performed:
 After spending one week on learning SQL, I tried to use some SQL basic commands: ORDER BY, LIMIT, GROUP BY, WHERE, SELECT DISTINCT, WHERE using wildcards, WHERE BETWEEN AND, COUNT(*). CREATE TABLE, ALTER TABLE, ALTER COLUMN. No CTEs, window functions or JOINs were used.
 
 To change data type in column 'price' from VARCHAR(255) to NUMERIC, I used Copilot to help me generate the below query:
+
 -- Change 'price' data type to NUMERIC and replace ',' with '.'
 -- ',' in 'price' column casued issue with inserting data. PostgreSQL expects a period (.) as the decimal separator for numeric types.
 ALTER TABLE transactions
