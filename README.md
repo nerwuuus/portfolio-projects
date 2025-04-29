@@ -1,4 +1,4 @@
-Stack: PostgreSQL, VSCode, PowerBi, Excel, Tableau
+Stack: PostgreSQL, VSCode, PowerBi, Excel, Tableau, GitHyb
 
 Data analysis steps performed:
 1. Define Objective: Examine how the time of day and year affect purchasing habits in a coffee shop. Analyzing such data can help improve service (e.g., by increasing the number of employees during core hours) and assist with ordering.
