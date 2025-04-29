@@ -18,7 +18,10 @@ After spending one week on learning SQL, I tried to use some SQL basic commands:
 To change data type in column 'price' from VARCHAR(255) to NUMERIC, I used Copilot to help me generate the below query:
 
 -- Change 'price' data type to NUMERIC and replace ',' with '.'
+
 -- ',' in 'price' column casued issue with inserting data. PostgreSQL expects a period (.) as the decimal separator for numeric types.
+
 ALTER TABLE transactions
+
 ALTER COLUMN price TYPE numeric USING REPLACE(price, ',', '.')::numeric;
 
