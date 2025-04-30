@@ -1,4 +1,4 @@
-Stack: PostgreSQL, VSCode, PowerBi, Excel, Tableau, GitHub
+Stack: PostgreSQL, VSCode, PowerBi, Excel, Tableau Public, GitHub
 
 Data analysis steps performed:
 1. Define Objective: Examine how the time of day and year affect purchasing habits in a coffee shop. Analyzing such data can help improve service (e.g., by increasing the number of employees during core hours) and assist with ordering.
@@ -36,6 +36,7 @@ I have connected PowerBi to the local PostgreSQL server and database coffee_sale
 
 Dashboard:
 
-![image](https://github.com/user-attachments/assets/641f9a09-7490-4c90-bc16-989c40c946c1)
+![image](https://github.com/user-attachments/assets/d5bb29a0-d0c2-48c4-8483-48a3603dca7e)
+
 
 
