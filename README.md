@@ -14,7 +14,7 @@ Data analysis steps performed:
 
 **SQL code**
 
-After spending one week on learning SQL, I tried to use some SQL basic commands: ORDER BY, LIMIT, GROUP BY, WHERE, SELECT DISTINCT, WHERE using wildcards, WHERE BETWEEN AND, COUNT(*). CREATE TABLE, ALTER TABLE, ALTER COLUMN. No CTEs, window functions or JOINs were used.
+After spending one week on learning SQL, I wanted to use some SQL basic commands in data analysis: ORDER BY, LIMIT, GROUP BY, WHERE, SELECT DISTINCT, WHERE using wildcards, WHERE BETWEEN AND, COUNT(*), CREATE TABLE, ALTER TABLE, ALTER COLUMN, DROP COLUMN, DROP TABLE. No CTEs, window functions or JOINs were used.
 
 I used Copilot to help me generate the below query (excluding my comments):
 
