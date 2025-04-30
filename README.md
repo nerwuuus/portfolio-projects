@@ -18,7 +18,7 @@ After spending one week on learning SQL, I wanted to use some SQL basic commands
 
 I used Copilot to help me generate the below query (excluding my comments):
 
--- Change 'price' data type to NUMERIC and replace ',' with '.'
+-- Change 'price' data type from VARCHAR(255) to NUMERIC and replace ',' with '.' due to the issues with using arithmetical operators
 
 -- ',' in 'price' column casued issue with inserting data. PostgreSQL expects a period (.) as the decimal separator for numeric types.
 
