@@ -22,6 +22,7 @@ PowerQuery queries:
 
 
 **Report structure**
+
 Visible Sheets:
 1. Governance Dashboard: Contains 12 charts (e.g., project RAG status, milestone status) and 2 tables (milestones completed and upcoming).
 2. Projects Dashboard: Features a table with project details (e.g., project manager, status, priority, project name).
