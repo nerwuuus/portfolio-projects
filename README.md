@@ -8,8 +8,7 @@ Folder 'SQL' contains 5 SQL files:
 - 3_data_insert_and_table_modify
 - 4_calculations_and_additional_tables
 
-**I used PostgreSQL pgAdmin4 to create a new database. I connected pgAdmin4 with VSCode using 'SQLTools' extension. **
-Due to the Excel's poor performance, I decided to use PostgreSQL to manipulate and use 'All activity report'. It is much easier and faster to, e.g., filter out needed data and then export it to .csv.
+Due to the Excel's poor performance, I decided to use PostgreSQL (pgAdmin4) to manipulate and use 'All activity report'. It is much easier and faster to, e.g., filter out needed data and then export it to .csv.
 
 Steps performed:
 
@@ -25,7 +24,7 @@ Steps performed:
 4. Connect database 'ess' to VSCode using 'SQLTools' extension.
 5. Upload data.
 6. Remove bugs and resolve issues using Google, Stackoverflow and Copilot :-)
-7. Have fun with using and manipulating data.  
+7. Write some SQL scripts. 
 
 
 **Any Excel and .csv files cannot be uploaded to GitHub due to the inclusion of sensitive employee information. Please refer to the screenshots below for details on the Excel file structure and technical details.**
