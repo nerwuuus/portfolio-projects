@@ -24,7 +24,7 @@ Steps performed:
 3. Create database 'ess'.
 4. Connect database 'ess' to VSCode using 'SQLTools' extension.
 5. Upload data.
-6. Resolve bugs and issues with Google and Copilot :-)
+6. Remove bugs and resolve issues using Google, Stackoverflow and Copilot :-)
 7. Have fun with using and manipulating data.  
 
 
