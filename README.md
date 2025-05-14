@@ -14,9 +14,10 @@ Due to the Excel's poor performance, I decided to use PostgreSQL to manipulate a
 Steps performed:
 
 1. Clean up the data:
-   - Remove blank rows
-   - Change data formatting to the default PostgreSQL formatting: YYYY-MM-DD
-   - Keep only 'Approved' hours in the 'Status' column (remove any other values)
+   - Remove blank rows.
+   - Remove columns unused, e.g., realted to the Standby activities.
+   - Change data formatting to the default PostgreSQL formatting: YYYY-MM-DD.
+   - Keep only 'Approved' hours in the 'Status' column (remove any other values).
    - Replace currency data type with decimals.
 2. Save the 'All activity reports' as .csv (UTF-8).
 3. Create database 'ess'.
