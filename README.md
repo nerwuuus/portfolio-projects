@@ -35,7 +35,7 @@ I have connected Power BI to the local PostgreSQL server and database 'coffee_sa
 ![image](https://github.com/user-attachments/assets/f597996a-ce37-424e-8a2f-b2ccb6c62edb)
 
 
-Dashboard:
+Dashboard
 
 ![image](https://github.com/user-attachments/assets/d5bb29a0-d0c2-48c4-8483-48a3603dca7e)
 
