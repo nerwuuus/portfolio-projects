@@ -15,6 +15,7 @@ Steps performed:
 
 1. Clean up the data:
    - Remove blank rows.
+   - Refine and update column names.
    - Remove columns unused, e.g., realted to the Standby activities.
    - Change data formatting to the default PostgreSQL formatting: YYYY-MM-DD.
    - Keep only 'Approved' hours in the 'Status' column (remove any other values).
