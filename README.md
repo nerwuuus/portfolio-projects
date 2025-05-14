@@ -1,8 +1,4 @@
-This branch includes a selection of files/reports I made while completing Alex The Analyst's Bootcamp on YouTube. I focused on SQL, Tableau and Power BI. 
-
-**SQL**
-
-I used PostgreSQL (Alex The Analyst used MySQL Workbench). 
+This branch includes a selection of files/reports I made while completing Alex The Analyst's Bootcamp on YouTube. I focused on Tableau and Power BI. 
 
 
 **Tableau**
