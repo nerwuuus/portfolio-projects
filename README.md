@@ -28,9 +28,9 @@ ALTER COLUMN price TYPE numeric USING REPLACE(price, ',', '.')::numeric;
 
 
 
-**PowerBi**
+**Power BI**
 
-I have connected PowerBi to the local PostgreSQL server and database coffee_sales. Data was manipulated and transformed, e.g., extracting month and year from date and merging it in new column. I used Copilot to help me generate DAX query to assign the correct time of the day to the transaction_time:
+I have connected Power BI to the local PostgreSQL server and database 'coffee_sales'. Data was manipulated and transformed, e.g., extracting month and year from date and merging it in new column. I used Copilot to help me generate DAX query to assign the correct time of the day to the transaction_time:
 
 ![image](https://github.com/user-attachments/assets/f597996a-ce37-424e-8a2f-b2ccb6c62edb)
 
