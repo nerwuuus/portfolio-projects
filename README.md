@@ -1,16 +1,13 @@
-This repository contains a collection of my portfolio projects, as well as Excel and Power BI reports created during my tenure as a PMO Specialist. 
-While working as a PMO Specialist, reports were developed to support project tracking, reporting, and data visualization, ensuring accurate and timely information for stakeholders.
+This repository contains a Tableau project. This project was created at the end of 21-hour YouTube online course led by Baraa form the 'Data with Baraa' channel.
 
 
-****Projects and reports are stored in separate branches. One branch = one project/one report:****
-- program-reporting - Excel and Power BI reports (work).
-- service-activation-tracker - Excel report (work).
-- coffee-sales - PostgreSQL scripts.
-- alex-the-analyst-bootcamp - Power BI and Tableau reports.
-- program-time-booking-report - Excel report and some PostgreSQL scripts (work).
-- SQL-random-scripts - self explanatory, contains SQL random scripts.
+I learned:
+- over 50 charts.
+- Using calculated fields and parameters.
+- Formatting numbers and visuals.
+- Creating dashboards and stories.
+- What are differences between discrete and continuous data types and how they affect on visuals creation.
+- How to use containers to build dashboard's structure.
 
-
-
-**Project manager names, project descriptions, and project names have been anonymized to protect sensitive information. PowerQuery connections were removed and are only available as screenshots (steps taken, number of queries).**
-
+The final task was full of challenges. During the final project, I faced issues with, e.g., number formatting on the KPI Quantity chart and text formatting on the KPI Profit chart.
+My goal was to learn how to create dashboard. It is not perfect.
