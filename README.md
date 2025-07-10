@@ -16,7 +16,6 @@ There are two Excel files:
 <br>
 The mnp and inm files are refreshed using a PowerShell script, which also saves these reports as .csv files on the desktop.
 Afterward, the mnp.csv and inm.csv files are loaded into a PostgreSQL database. <br>
-To avoid duplicates, the mnp and inm tables must be cleared before loading data for the most recent month.
 
 # I. Power BI steps performed
    - Clean up the data (e.g., remove blank rows).
