@@ -116,7 +116,7 @@ Error 'Permission denied' while uploading data. Paste the below code in pgAdmin4
 
 ```
 
-# Database update - work instruction
+# III. Database update
 1. Run the PowerShell script below to refresh the data in the INM and SharePoint_site2 reports and export them as .CSV files.<br>
 The data refresh duration can be adjusted as needed. The script includes an additional 1-minute buffer time for each file refresh to ensure completion (total runtime: 6 minutes — 3 minutes per file).
 For comparison, manually refreshing both files takes approximately 4 minutes (2 minutes per file).
