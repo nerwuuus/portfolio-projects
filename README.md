@@ -1,35 +1,29 @@
-This branch contains a description of 'mnp' and 'inm' Excel files, and database to retrieve data from these files, that I created during my tenure as a PMO Specialist. 
-Folder 'SQL' contains SQL scripts used to create main tables, staging tables, and combine them. What is more, it contains some SQL scripts used on daily basis.
+## Introduction
+This branch contains a description of 'mnp' and 'inm' Excel files, and database to retrieve data from these files, that I created during my tenure as a PMO Specialist. Those Excel reports are the biggest that I have ever created. Folder 'SQL' contains SQL scripts used to create main tables, staging tables, and combine them. What is more, it contains some SQL scripts used on daily basis.
 
 ## Issue description
-The mnp Excel report contains approximately 150,000 rows, with around 3,000 new rows added each month. The inm report includes about 15,000 rows, growing by roughly 2,000 rows monthly.
-Using Excel to retrieve or analyze data from these files has become increasingly slow and inflexible.
+The mnp Excel report contains approximately 150,000 rows, with around 3,000 new rows added each month. The inm report includes about 15,000 rows, growing by roughly 2,000 rows monthly. Both contain data such as employee name, SAP ID, number of hours approved and rejected, project name (WBS name and number). ** Using Excel to retrieve or analyze data from these files has become increasingly slow and inflexible. ** They take data from different SharePoint repositories and combines them using PowerQuery. Retrieving data using PowerQuery in the mnp and inm Excel files solved the problem with distributed data regarding the registration of working hours in individual months (one month, one separate Excel report). 
 <br>
 <br>
 Since I started learning SQL in April 2025, I decided this would be a great opportunity to set up a local PostgreSQL database on my work laptop.
 To support this setup, I used a LLM (Copilot) to help generate a PowerShell script and debug the necessary SQL scripts.
 
-## General information
-There are two Excel files:
-- mnp: PowerQuery pulls data from several dozen smaller historical reports (each covering one month), transform it, and generates a consolidated report spanning from April 2022 to the present day.
-- inm: PowerQuery pulls data from several dozen smaller historical reports (each covering one month), transform it, and generates a consolidated report spanning from January 2025 to the present day.
-<br>
-The mnp and inm files are refreshed using a PowerShell script, which also saves these reports as .csv files on the desktop.
-Afterward, the mnp.csv and inm.csv files are loaded into a PostgreSQL database. <br>
+## High-level process description
+   - Using PowerShell script, the 'mnp' and 'inm' files compile data, using PowerQuery, from all 'Time Management' reports, available on SharePoint. The 'Time Management' report is designed to collect and maintain data from SAP in an organized manner. At the beginning of each month, a 'Time Management' report is prepared and uploaded to SharePoint repository.  
+   - PowerShell saves these refreshed reports as inm.csv and mnp.csv files on the desktop.
+   - Afterward, the mnp.csv and inm.csv files are loaded into a PostgreSQL database.
 
-# I. PowerQuery
-## Data clean up and transformation steps
-   - Clean up the data (e.g., remove blank rows).
-   - Refine and update column names.
-   - Change data formatting to the default PostgreSQL formatting: YYYY-MM-DD.
-   - Replace currency data type with decimals.
+# I. Excel file and PowerQuery
+## Data clean up and transformation steps in PowerQuery
+   - PowerQuery in both files, search for Excel files stored on contract/program SharePoint that contains 'mnp final report' and 'inm final report'.
+   - Data is cleaned up (e.g., blank rows are removed).
+   - Column names are refined (to be the same in 'mnp' and 'inm' Excel files).
+   - Data formatting is changed to the default PostgreSQL formatting: YYYY-MM-DD.
+   - Currency data type is replaced with decimals and uses '.' as separator.
+## Important information
+Any Excel and .csv files cannot be uploaded to GitHub due to the inclusion of sensitive employee information.
 
-**Any Excel and .csv files cannot be uploaded to GitHub due to the inclusion of sensitive employee information. Please refer to the screenshots below for details on the Excel file structure and technical details.**
-**This Excel report is the biggest that I have ever created. It takes data from different SharePoint repositories and combines them. The result is two Excel reports, mnp (over 140 000 rows) and inm (over 20 000 rows), that contains data such as: employee name, SAP ID, number of hours approved and rejected, project name (WBS name and number).**
 
-This file solved the problem with distributed data regarding the registration of working hours in individual months (one month, one separate Excel report). 
-
-The 'mnp' and 'inm' files compile data, using PowerQuery, from all 'Time Management' reports, available on SharePoint. The 'Time Management' report is designed to collect and maintain data from SAP in an organized manner. At the beginning of each month, a 'Time Management' report is prepared and uploaded to SharePoint repository. 
 
 # II. Database set-up
 ## Create tables inm and mnp
