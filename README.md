@@ -4,7 +4,7 @@ This branch contains documentation for the 'mnp' and 'inm' Excel reports, along 
    - The source data was originally distributed across dozens of Excel files, each representing a separate month of employee time registration, starting from April 2022 up to the present. This decentralized structure made data consolidation time-consuming and error-prone.
    - The 'mnp' Excel report contains approximately 150,000 rows, with around 3,000 new rows added each month. The 'inm' report includes about 15,000 rows, growing by roughly 2,000 rows monthly. Both reports include key data such as employee name, SAP ID, approved and rejected hours, and project identifiers (WBS name and number). **Using Excel alone to retrieve or analyze this data had become increasingly slow and inflexible.**
 ## Issue resolution
-To address these challenges, I used Power Query in Excel to retrieve data directly from SharePoint, and then stored and processed the collected data in a SQL database. This approach enabled:
+To address these challenges, I used Power Query in Excel to retrieve data directly from SharePoint, and then loaded it into a PostgreSQL database for structured processing and analysis. This approach enabled:
    - Efficient consolidation of monthly data into unified reports.
    - Significant improvements in reporting speed, data accuracy, and overall productivity. <br><br>
 The 'SQL' folder contains scripts used to create the database structure, including main tables, staging tables, and data transformation logic. It also includes several daily-use SQL queries that support ongoing operations.
