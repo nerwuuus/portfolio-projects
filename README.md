@@ -16,19 +16,13 @@ Afterward, the mnp.csv and inm.csv files are loaded into a PostgreSQL database. 
 To avoid duplicates, the mnp and inm tables must be cleared before loading data for the most recent month.
 
 # I. Power BI steps performed
-1. Clean up the data:
-   - Remove blank rows.
+   - Clean up the data (e.g., remove blank rows).
    - Refine and update column names.
    - Remove columns unused, e.g., realted to the Standby activities.
    - Change data formatting to the default PostgreSQL formatting: YYYY-MM-DD.
    - Keep only 'Approved' hours in the 'Status' column (remove any other values).
    - Replace currency data type with decimals.
-2. Save the 'All activity reports' as .csv (UTF-8).
-3. Create database 'ess'.
-4. Connect database 'ess' to VSCode using 'SQLTools' extension.
-5. Upload data.
-6. Remove bugs and resolve issues using Google, Stackoverflow and Copilot :-)
-7. Write some SQL scripts. 
+
 
 
 **Any Excel and .csv files cannot be uploaded to GitHub due to the inclusion of sensitive employee information. Please refer to the screenshots below for details on the Excel file structure and technical details.**
