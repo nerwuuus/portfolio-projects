@@ -10,7 +10,9 @@ Since I started learning SQL in April 2025, I decided this would be a great oppo
 To support this setup, I used a LLM (Copilot) to help generate a PowerShell script and debug the necessary SQL scripts.
 
 ## General information
-PowerQuery pulls data from several dozen smaller historical reports (each covering one month), transform it, and generates a consolidated report spanning from April 2022 to the present day.
+There are two Excel files:
+- MNP: PowerQuery pulls data from several dozen smaller historical reports (each covering one month), transform it, and generates a consolidated report spanning from April 2022 to the present day.
+- iNM: PowerQuery pulls data from several dozen smaller historical reports (each covering one month), transform it, and generates a consolidated report spanning from January 2025 to the present day.<br>
 The mnp and inm files are refreshed using a PowerShell script, which also saves these reports as .csv files on the desktop.
 Afterward, the mnp.csv and inm.csv files are loaded into a PostgreSQL database. <br>
 To avoid duplicates, the mnp and inm tables must be cleared before loading data for the most recent month.
