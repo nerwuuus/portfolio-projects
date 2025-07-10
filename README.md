@@ -4,7 +4,7 @@ A Service Activation is a tool used to monitor and manage the activation of serv
 ## Issue description
 Initially, this data was accessible via web application. However, a significant issue arose: not every stakeholder had access to this tool or wanted to learn how to use it. What is more, getting data was difficult and time-consuming and management required only high-level detailed reports. To address this issues, I developed a Service Activation Tracker Excel file. Whenever requested, I exported data from the Service Activation application and uploaded it to SharePoint. The next step involved refreshing the data using PowerQuery to get the latest uploaded export, making the report ready to be shared. No visualisations were requested.
 
-It was my first report created that used PowerQuery, defined variables, FILTER formula and multiple nested IFs (code snippets available in the 'Excel file formulas'):
+It was my first report created that used PowerQuery, defined variables, FILTER formula and multiple nested IFs:
 ```excel
 Service Activation Tracker - 'SA Tracker' sheet - 'Days to complete' column formula:
 =IF(F2="";"";
