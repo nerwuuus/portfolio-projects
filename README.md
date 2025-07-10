@@ -8,10 +8,7 @@ Folder 'SQL' contains 5 SQL files:
 - 3_data_insert_and_table_modify
 - 4_calculations_and_additional_tables
 
-Due to the Excel's poor performance, I decided to use PostgreSQL (pgAdmin4) to manipulate and use 'All activity report'. It is much easier and faster to, e.g., filter out needed data and then export it to .csv.
-
-Steps performed:
-
+# Power BI steps performed
 1. Clean up the data:
    - Remove blank rows.
    - Refine and update column names.
@@ -28,23 +25,11 @@ Steps performed:
 
 
 **Any Excel and .csv files cannot be uploaded to GitHub due to the inclusion of sensitive employee information. Please refer to the screenshots below for details on the Excel file structure and technical details.**
-**This Excel report is the biggest that I have ever created. It takes data from 2 different SharePoint repositories and combines them. The result is the report with almost 140 000 rows, that contains data such as: employee name, SAP ID, hourly rate, number of hours approved and rejected, project name (WBS name and number).**
+**This Excel report is the biggest that I have ever created. It takes data from different SharePoint repositories and combines them. The result is two Excel reports, mnp (over 140 000 rows) and inm (over 20 000 rows), that contains data such as: employee name, SAP ID, number of hours approved and rejected, project name (WBS name and number).**
 
 This file solved the problem with distributed data regarding the registration of working hours in individual months (one month, one separate Excel report). 
-Additionally, this report calculates the cost of each employee from the moment of signing the contract with the client (since 2022) until the present day.
 
-The 'All Activity Reports' file compiles data, using PowerQuery, from all 'Time Management' reports, available on SharePoint. The 'Time Management' report is designed to collect and maintain data from SAP in an organized manner. At the beginning of each month, a 'Time Management' report is prepared and uploaded to SharePoint repository. 
-
-
-![image](https://github.com/user-attachments/assets/6f9a036b-d50e-4a65-a240-d34df106a696)
-
-Report sheets explanation: 
-- Standby WBS – list of all standby WBS used by engineers.
-- WFM 2021-2023 – list of employees working from 2021 to 2023.
-- WFM 2024 - list of employees working in 2024 (PowerQuery connection to the WFM 2024 file).
-- WFM 2025 - list of employees working in 2025 (PowerQuery connection to the WFM 2025 file).
-- PowerQuery data – all WFM and Time Management reports data combined.
-- Cost per WBS, Cost per employee and Standby cost – self-explanatory, pivot tables.
+The 'mnp' and 'inm' files compile data, using PowerQuery, from all 'Time Management' reports, available on SharePoint. The 'Time Management' report is designed to collect and maintain data from SAP in an organized manner. At the beginning of each month, a 'Time Management' report is prepared and uploaded to SharePoint repository. 
 
 
 'PowerQuery Data' sheet columns structure:
