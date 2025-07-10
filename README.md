@@ -25,11 +25,26 @@ PowerQuery queries:
 
 Visible Sheets:
 1. Governance Dashboard: Contains 12 charts (e.g., project RAG status, milestone status) and 2 tables (milestones completed and upcoming).
-2. Projects Dashboard: Features a table with project details (e.g., project manager, status, priority, project name).
-3. Milestones: Displays a table with all milestones (collected and manipulated using PowerQuery).
-4. Risk: Lists registered risks.
-5. Issues: Contains a table with registered issues.
-6. PCR: Shows a table with registered project change requests.
+```excel
+Governance Dashboard - Milestones to be completed table code:
+=IFERROR(SORT(CHOOSECOLS(FILTER(Milestones!A2:K237;(Milestones!K2:K237="To be completed")*(Milestones!F2:F237<>"Pending")*(Milestones!F2:F237<>"Pending Customer");"");1;2;4;6);3;1);"")
+
+```
+3. Projects Dashboard: Features a table with project details (e.g., project manager, status, priority, project name).
+4. Milestones: Displays a table with all milestones (collected and manipulated using PowerQuery).
+```excel
+Milestones - Breached column:
+=IF([@[Percent complete]]=100%;"";IF(TODAY()>[@[Planned end date]];TEXTJOIN(" by ";TRUE;"Breached";TODAY()-D2)&" days";""))
+
+Milestones - Completed in the last 3 weeks column:
+=IF(AND(E2<>"";E2>=TODAY()-21; E2<=TODAY());TRUE;"")
+
+Milestones - To be completed column:
+=IF([@State]="Closed Complete";"";IF(YEAR(D2)&"-"&TEXT(WEEKNUM(D2;2);"00")<YEAR(TODAY())&"-"&TEXT(WEEKNUM(TODAY();2);"00");"Breached";"To be completed"))
+```
+5. Risk: Lists registered risks.
+6. Issues: Contains a table with registered issues.
+7. PCR: Shows a table with registered project change requests.
 
 Hidden Sheets:
 1. VBA: Includes a short work instruction and 7 macros assigned to separate buttons. These macros perform tasks such as removing HTML tags from ServiceNow reports, replacing text in columns with RAG status shortcuts (R, A, G), and refreshing charts.
