@@ -39,7 +39,6 @@ This file solved the problem with distributed data regarding the registration of
 The 'mnp' and 'inm' files compile data, using PowerQuery, from all 'Time Management' reports, available on SharePoint. The 'Time Management' report is designed to collect and maintain data from SAP in an organized manner. At the beginning of each month, a 'Time Management' report is prepared and uploaded to SharePoint repository. 
 
 # II. Database set-up
-# Database set-up
 ## Create tables inm and mnp
 ```sql
 -- Create table inm
