@@ -311,8 +311,3 @@ Execute the scripts mentioned in steps 3 and 5 above to complete the process.
 
 
 
-![image](https://github.com/user-attachments/assets/ce2f7155-e9aa-484b-b881-3c42e9ede700)
-
-
-
-
