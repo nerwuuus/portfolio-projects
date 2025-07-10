@@ -35,8 +35,5 @@ PowerQuery applied steps:
 ![image](https://github.com/user-attachments/assets/ce2f7155-e9aa-484b-b881-3c42e9ede700)
 
 
-PowerQuery list of all queries:
-
-![image](https://github.com/user-attachments/assets/ed6f6a64-6087-4f9c-a8e4-8c09f97b120a)
 
 
