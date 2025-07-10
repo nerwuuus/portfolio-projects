@@ -26,10 +26,6 @@ This file solved the problem with distributed data regarding the registration of
 
 The 'mnp' and 'inm' files compile data, using PowerQuery, from all 'Time Management' reports, available on SharePoint. The 'Time Management' report is designed to collect and maintain data from SAP in an organized manner. At the beginning of each month, a 'Time Management' report is prepared and uploaded to SharePoint repository. 
 
-
-'PowerQuery Data' sheet columns structure:
-
-![image](https://github.com/user-attachments/assets/5bfaa7fc-2a3e-40a7-98d3-9b375c17bf05)
 PowerQuery transforms data and extracts month and year from date. Mandays are calculated using simply Excel formula.
 
 ****More advanced Excel formulas are available in the 'Excel formulas snippet' file.****
