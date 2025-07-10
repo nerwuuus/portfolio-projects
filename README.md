@@ -1,12 +1,7 @@
-This branch contains a description of 'All activity reports' Excel file, that I created during my tenure as a PMO Specialist. 
+This branch contains a description of 'mnp' and 'inm' Excel files, that I created during my tenure as a PMO Specialist. 
 
 
-Folder 'SQL' contains 5 SQL files:
-- 0_all_activity_report - all SQL scripts in one file
-- 1_create_database_ess
-- 2_create_table_ess
-- 3_data_insert_and_table_modify
-- 4_calculations_and_additional_tables
+Folder 'SQL' contains SQL scripts used to create main tables, staging tables, and combine them. It contains some scripts used on daily basis.
 
 # Power BI steps performed
 1. Clean up the data:
