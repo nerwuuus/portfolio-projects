@@ -17,15 +17,12 @@ There are two Excel files:
 The mnp and inm files are refreshed using a PowerShell script, which also saves these reports as .csv files on the desktop.
 Afterward, the mnp.csv and inm.csv files are loaded into a PostgreSQL database. <br>
 
-# I. Power BI steps performed
+# I. PowerQuery
+## Data clean up and transformation steps
    - Clean up the data (e.g., remove blank rows).
    - Refine and update column names.
-   - Remove columns unused, e.g., realted to the Standby activities.
    - Change data formatting to the default PostgreSQL formatting: YYYY-MM-DD.
-   - Keep only 'Approved' hours in the 'Status' column (remove any other values).
    - Replace currency data type with decimals.
-
-
 
 **Any Excel and .csv files cannot be uploaded to GitHub due to the inclusion of sensitive employee information. Please refer to the screenshots below for details on the Excel file structure and technical details.**
 **This Excel report is the biggest that I have ever created. It takes data from different SharePoint repositories and combines them. The result is two Excel reports, mnp (over 140 000 rows) and inm (over 20 000 rows), that contains data such as: employee name, SAP ID, number of hours approved and rejected, project name (WBS name and number).**
