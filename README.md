@@ -3,7 +3,7 @@ While working as a PMO Specialist, reports were developed to support project tra
 
 
 ****Projects and reports are stored in separate branches. One branch = one project/one report:****
-- program-reporting - Excel and Power BI reports (work).
+- program-status-report - Excel and Power BI reports (work).
 - service-activation-tracker - Excel report (work).
 - coffee-sales - PostgreSQL scripts.
 - alex-the-analyst-bootcamp - Power BI and Tableau reports.
