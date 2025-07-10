@@ -32,7 +32,7 @@ ISNUMBER(SEARCH('Search bar'!D3;'SA Tracker'!B2:B300))+ISNUMBER(SEARCH('Search b
 "Not found")
 ```
 
-
+## Report
 SA Tracker Sheet - the main data
 ![image](https://github.com/user-attachments/assets/6933b04f-6a7b-42be-a7d8-f245b46db6c1)
 
