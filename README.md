@@ -1,7 +1,7 @@
 ## Introduction
-This branch contains documentation for the 'mnp' and 'inm' Excel reports, along with the supporting database I developed during my tenure as a PMO Specialist. These reports are the most comprehensive I have created to date. <br>
-The 'SQL' folder includes scripts used to build the database structure—covering both staging and main tables—as well as scripts that integrate and transform the data. It also contains several SQL queries used in daily operations. <br>
-By leveraging Power Query in the 'mnp' and 'inm' Excel files, I was able to streamline the process of consolidating distributed data related to monthly working hour registrations (each month previously stored in a separate Excel file). Integrating a database as the central data source significantly improved both the speed and accuracy of report generation. <br>
+This branch contains documentation for the 'mnp' and 'inm' Excel reports, along with the supporting database I developed during my tenure as a PMO Specialist. These reports are the most comprehensive I have created to date. <br><br>
+The 'SQL' folder includes scripts used to build the database structure—covering both staging and main tables—as well as scripts that integrate and transform the data. It also contains several SQL queries used in daily operations. <br><br>
+By leveraging Power Query in the 'mnp' and 'inm' Excel files, I was able to streamline the process of consolidating distributed data related to monthly working hour registrations (each month previously stored in a separate Excel file). Integrating a database as the central data source significantly improved both the speed and accuracy of report generation. <br><br>
 As a result, the overall quality of reporting increased, and productivity improved notably.
 
 ## Issue description
