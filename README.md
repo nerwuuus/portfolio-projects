@@ -1,15 +1,13 @@
 ## Introduction
-This branch contains documentation for the 'mnp' and 'inm' Excel reports, along with the supporting database I developed during my tenure as a PMO Specialist. These reports are the most comprehensive I have created to date. <br><br>
-The 'SQL' folder includes scripts used to build the database structure—covering both staging and main tables—as well as scripts that integrate and transform the data. It also contains several SQL queries used in daily operations. <br><br>
-By leveraging Power Query in the 'mnp' and 'inm' Excel files, I was able to streamline the process of consolidating distributed data related to monthly working hour registrations (each month previously stored in a separate Excel file). Integrating a database as the central data source significantly improved both the speed and accuracy of report generation. <br><br>
-As a result, the overall quality of reporting increased, and productivity improved notably.
-
+This branch contains documentation for the 'mnp' and 'inm' Excel reports, along with the supporting database I developed during my tenure as a PMO Specialist. These reports are the most comprehensive I have created to date.
 ## Issue description
-The mnp Excel report contains approximately 150,000 rows, with around 3,000 new rows added each month. The inm report includes about 15,000 rows, growing by roughly 2,000 rows monthly. Both contain data such as employee name, SAP ID, number of hours approved and rejected, project name (WBS name and number). **Using Excel to retrieve or analyze data from these files has become increasingly slow and inflexible.** . 
-<br>
-<br>
-Since I started learning SQL in April 2025, I decided this would be a great opportunity to set up a local PostgreSQL database on my work laptop.
-To support this setup, I used a LLM (Copilot) to help generate a PowerShell script and debug the necessary SQL scripts.
+   - The source data was originally distributed across dozens of Excel files, each representing a separate month of employee time registration, starting from April 2022 up to the present. This decentralized structure made data consolidation time-consuming and error-prone.
+   - The 'mnp' Excel report contains approximately 150,000 rows, with around 3,000 new rows added each month. The 'inm' report includes about 15,000 rows, growing by roughly 2,000 rows monthly. Both reports include key data such as employee name, SAP ID, approved and rejected hours, and project identifiers (WBS name and number). **Using Excel alone to retrieve or analyze this data had become increasingly slow and inflexible.**
+## Issue resolution
+To address these challenges, I created PowerQuery in Excel to connect directly to retrieve data from the SharePoint, and use collected data in SQL database. This approach enabled:
+   - Efficient consolidation of monthly data into unified reports.
+   - Significant improvements in reporting speed, data accuracy, and overall productivity. <br><br>
+The 'SQL' folder contains scripts used to create the database structure, including main tables, staging tables, and data transformation logic. It also includes several daily-use SQL queries that support ongoing operations.
 
 ## High-level process description
    - Using PowerShell script, the 'mnp' and 'inm' files compile data, using PowerQuery, from all 'Time Management' reports (one month, one report), available on SharePoint. The 'Time Management' report is designed to collect and maintain data from SAP in an organized manner. At the beginning of each month, a 'Time Management' report is prepared and uploaded to SharePoint repository.  
