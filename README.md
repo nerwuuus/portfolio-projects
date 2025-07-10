@@ -1,5 +1,5 @@
 This branch contains a description of 'mnp' and 'inm' Excel files, and database to retrieve data from these files, that I created during my tenure as a PMO Specialist. 
-Folder 'SQL' contains SQL scripts used to create main tables, staging tables, and combine them. It contains some scripts used on daily basis.
+Folder 'SQL' contains SQL scripts used to create main tables, staging tables, and combine them. What is more, it contains some SQL scripts used on daily basis.
 
 ## Issue description
 The mnp Excel report contains approximately 150,000 rows, with around 3,000 new rows added each month. The inm report includes about 15,000 rows, growing by roughly 2,000 rows monthly.
