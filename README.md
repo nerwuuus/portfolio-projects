@@ -1,4 +1,4 @@
-This branch contains a description of 'mnp' and 'inm' Excel files, that I created during my tenure as a PMO Specialist. 
+This branch contains a description of 'mnp' and 'inm' Excel files, and database to retrieve data from these files, that I created during my tenure as a PMO Specialist. 
 Folder 'SQL' contains SQL scripts used to create main tables, staging tables, and combine them. It contains some scripts used on daily basis.
 
 ## Issue description
