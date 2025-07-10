@@ -276,22 +276,16 @@ WHERE EXTRACT(YEAR FROM date) = 2025;
 
 
 ## ⚠️ If the PowerShell script didn’t work, follow the steps below manually
-1. Save Files as UTF-8 CSV.
-Export the mnp and inm files in .csv format with UTF-8 encoding.
+1. Save Files as UTF-8 CSV. Export the mnp and inm files in .csv format with UTF-8 encoding.
 
-2. Adjust Date Format.
-Open both .csv files and change the date format to YYYY-MM-DD (or RRRR-MM-DD, depending on your system settings).
+2. Adjust Date Format. Open both .csv files and change the date format to YYYY-MM-DD (or RRRR-MM-DD, depending on your system settings).
 
-3. Clean Database Tables.
-Use the TRUNCATE command to clear the mnp and inm tables before loading new data (as described in step 3 above).
+3. Clean Database Tables. Use the TRUNCATE command to clear the mnp and inm tables before loading new data (as described in step 3 above).
 
-4. Update Tables via pgAdmin4.
-Open the PSQL tool in pgAdmin4.
-Load the updated mnp.csv and inm.csv files into the corresponding tables.
+4. Update Tables via pgAdmin4. Open the PSQL tool in pgAdmin4. Load the updated mnp.csv and inm.csv files into the corresponding tables.
 ⚠️ If you encounter an error like "more columns than expected", open the .csv files and remove any blank columns (especially those on the far right).
 
-5. Run SQL Scripts
-Execute the scripts mentioned in steps 3 and 5 above to complete the process.
+5. Execute the scripts mentioned in steps 3 and 5 above to complete the process.
 
 
 ## Stack
