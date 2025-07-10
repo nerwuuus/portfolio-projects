@@ -7,7 +7,7 @@ While working as a PMO Specialist, reports were developed to support project tra
 - service-activation-tracker - Excel report (work).
 - coffee-sales - PostgreSQL scripts.
 - alex-the-analyst-bootcamp - Power BI and Tableau reports.
-- program-time-booking-report - Excel report and some PostgreSQL scripts (work).
+- ess-time-registration - Excel report and some PostgreSQL scripts (work).
 - SQL-random-scripts - self explanatory, contains SQL random scripts.
 
 
