@@ -48,7 +48,9 @@ CREATE TABLE mnp (
     wbs_description VARCHAR(255),
     hours NUMERIC(4,2)
 );
-
+```
+## Create staging tables (used while updating database to check the data integrity)
+```sql
 -- Create staging tables
 CREATE TABLE mnp_staging AS
 TABLE mnp;
