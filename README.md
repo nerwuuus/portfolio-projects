@@ -9,10 +9,18 @@ To address these challenges, I used Power Query in Excel to retrieve data direct
    - Significant improvements in reporting speed, data accuracy, and overall productivity. <br><br>
 The 'SQL' folder contains scripts used to create the database structure, including main tables, staging tables, and data transformation logic. It also includes several daily-use SQL queries that support ongoing operations.
 
-## High-level Excel files and database process description
-- A PowerShell script automates the process of compiling data in the 'mnp' and 'inm' Excel files using Power Query, which pulls data from all available 'Time Management' reports on SharePoint (one report per month). These reports are designed to collect and structure data exported from SAP and are uploaded to the SharePoint repository at the beginning of each month.
-- The script then saves the refreshed Excel files as mnp.csv and inm.csv on the desktop.
-- Finally, these CSV files are imported into a PostgreSQL database for further processing and reporting.
+## High-Level Overview of Excel-Based Data Integration, Database Staging and Update Process
+**Data Compilation via PowerShell & Power Query**
+- A PowerShell script automates the compilation of data into the mnp and inm Excel files. These files use Power Query to extract data from all available Time Management reports stored on SharePoint — one report per month. These reports are structured exports from SAP and are uploaded to SharePoint at the beginning of each month.
+
+**Export to CSV Format**
+- Once the data is refreshed, the script saves the updated Excel files as mnp.csv and inm.csv on the desktop.
+
+**Import into PostgreSQL Staging Tables**
+- The CSV files are then imported into corresponding PostgreSQL staging tables (mnp_staging and inm_staging) for further processing.
+
+**Data Validation and Main Table Update**
+- After passing data quality checks, validated data is used to update the main database tables.
 
 # I. Excel file and PowerQuery
 ## Data clean up and transformation steps in PowerQuery
