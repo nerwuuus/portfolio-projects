@@ -49,7 +49,8 @@ CREATE TABLE mnp (
     hours NUMERIC(4,2)
 );
 ```
-## Create staging tables (used while updating database to check the data integrity)
+## Create staging tables
+The staging tables inm_staging and mnp_staging are used during database updates to validate data integrity before applying changes to the main tables.
 ```sql
 -- Create staging tables
 CREATE TABLE mnp_staging AS
