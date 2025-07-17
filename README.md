@@ -1,7 +1,7 @@
 # I. Program Board Meeting Excel file description
 ## Issue description
 The main reasons for creating this file were:
-- lack of access to ServiceNow by some internal stakeholders.
+- Lack of access to ServiceNow by some internal stakeholders.
 - Lack of a solution enabling the review of project statuses without obtaining data from multiple reports.
 - The need to create a file that would be presented during status meetings held every two weeks.
 ## General information
@@ -15,13 +15,7 @@ PowerQuery applied steps (repeated for every ServiceNow Excel report):
 
 ![image](https://github.com/user-attachments/assets/740ec96e-0300-4da8-b2ca-e0e5502223c1)
 
-
-PowerQuery queries:
-
-![image](https://github.com/user-attachments/assets/a176e688-2a38-42ab-a990-2cdb7717043d)
-
-
-## Report structure
+## Excel report structure
 
 Visible Sheets:
 1. Governance Dashboard: Contains 12 charts (e.g., project RAG status, milestone status) and 2 tables (milestones completed and upcoming).
