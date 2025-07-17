@@ -1,10 +1,10 @@
-## General information
-A Service Activation is a tool used to monitor and manage the activation of services, systems, or facilities, ensuring that all necessary tasks and milestones are completed. Report was created in January 2024 and used until October 2024.
+# General information
+A Service Activation is a tool used to monitor and manage the activation of services, systems, or facilities, ensuring that all necessary tasks and milestones are completed. The report was created in January 2024 and used until October 2024.
 ## Issue description
-Initially, this data was accessible via web application. However, a significant issue arose: not every stakeholder had access to this tool or wanted to learn how to use it. What is more, getting data was difficult and time-consuming and management required only high-level detailed reports. To address this issues, I developed a Service Activation Tracker Excel file. Whenever requested, I exported data from the Service Activation application and uploaded it to SharePoint. The next step involved refreshing the data using PowerQuery to get the latest uploaded export, making the report ready to be shared. No visualisations were requested.
+Initially, this data was accessible via a web application. However, a significant issue arose: not every stakeholder had access to this tool or wanted to learn how to use it. What is more, getting data was difficult and time-consuming, and management required only high-level, detailed reports. To address these issues, I developed a Service Activation Tracker Excel file. Whenever requested, I exported data from the Service Activation application and uploaded it to SharePoint. The next step involved refreshing the data using PowerQuery to get the latest uploaded export, making the report ready to be shared. No visualisations were requested.
 
-It was my first report created that used PowerQuery, defined variables, FILTER formula and multiple nested IFs:
-```excel
+It was my first report created that used PowerQuery, defined variables, a FILTER formula and multiple nested IFs:
+```PowerShell
 Service Activation Tracker - 'SA Tracker' sheet - 'Days to complete' column formula:
 =IF(F2="";"";
 IF(D2="Cancelled";"Cancelled";
@@ -46,7 +46,7 @@ Simple dashboard
 ![image](https://github.com/user-attachments/assets/3f7e197b-7303-4dc3-b70d-c348d7822e9f)
 
 
-PowerQuery steps applied
+## PowerQuery steps applied
 
 ![image](https://github.com/user-attachments/assets/91549f4a-181d-43e9-af87-a24ed14aebc1)
 
