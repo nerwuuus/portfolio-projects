@@ -1,3 +1,4 @@
+# Introduction
 This repository contains a Tableau project created at the end of a 21-hour YouTube course led by Baraa from the 'Data with Baraa' channel.
 
 
@@ -10,6 +11,6 @@ This repository contains a Tableau project created at the end of a 21-hour YouTu
 - How to use containers to structure a dashboard.
 
 ## Summary
-The final task was full of challenges. During the project, I encountered issues such as number formatting on the KPI Quantity chart and text formatting on the KPI Profit chart. My goal was to learn how to create a dashboard. It’s not perfect, but it represents my learning journey.
+The final task was challenging. During the project, I encountered issues such as number formatting on the KPI Quantity chart and text formatting on the KPI Profit chart. My goal was to learn how to create a dashboard. It’s not perfect, but it represents my learning journey.
 ![image](https://github.com/user-attachments/assets/a07fcc57-3cdf-46d4-9fa2-1fabfa5827fe)
 
