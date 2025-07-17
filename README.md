@@ -1,6 +1,6 @@
 # General information
 This was my first project after one month of learning SQL. I wanted to apply basic/intermediate SQL commands in a practical data analysis scenario. I used statements such as ORDER BY, LIMIT, GROUP BY, WHERE, SELECT DISTINCT, WHERE with wildcards, WHERE BETWEEN ... AND, COUNT(*), CASE WHEN, as well as CREATE TABLE, ALTER TABLE, ALTER COLUMN, DROP COLUMN, and DROP TABLE. I intentionally kept the scope simple—avoiding CTEs, window functions, and JOINs—to focus on mastering the core SQL syntax and logic.
-<br>
+<br><br>
 This project analyses coffee shop sales data using Power BI and SQL. It explores seasonal trends, pricing consistency, and time-based transaction patterns.
 
 
