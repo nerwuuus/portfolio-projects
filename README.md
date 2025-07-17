@@ -1,5 +1,5 @@
 # General information
-This was my first project after two weeks of learning SQL. I wanted to apply basic SQL commands in a practical data analysis scenario. I used statements such as ORDER BY, LIMIT, GROUP BY, WHERE, SELECT DISTINCT, WHERE with wildcards, WHERE BETWEEN ... AND, COUNT(*), as well as CREATE TABLE, ALTER TABLE, ALTER COLUMN, DROP COLUMN, and DROP TABLE. I intentionally kept the scope simple—avoiding CTEs, window functions, and JOINs—to focus on mastering the core SQL syntax and logic.
+This was my first project after one month of learning SQL. I wanted to apply basic/intermediate SQL commands in a practical data analysis scenario. I used statements such as ORDER BY, LIMIT, GROUP BY, WHERE, SELECT DISTINCT, WHERE with wildcards, WHERE BETWEEN ... AND, COUNT(*), CASE WHEN, as well as CREATE TABLE, ALTER TABLE, ALTER COLUMN, DROP COLUMN, and DROP TABLE. I intentionally kept the scope simple—avoiding CTEs, window functions, and JOINs—to focus on mastering the core SQL syntax and logic.
 
 ## Data analysis steps performed
 1. Define Objective: Examine how the time of day and year affect purchasing habits in a coffee shop. Analysing such data can help improve service (e.g., by increasing the number of employees during core hours) and assist with ordering.
