@@ -285,7 +285,7 @@ WHERE EXTRACT(YEAR FROM date) = 2025;
 3. Clean Database Tables. Use the TRUNCATE command to clear the mnp and inm tables before loading new data (as described in step 3 above).
 
 4. Update Tables via pgAdmin4. Open the PSQL tool in pgAdmin4. Load the updated mnp.csv and inm.csv files into the corresponding tables.
-⚠️ If you encounter an error like "more columns than expected", open the .csv files and remove any blank columns (especially those on the far right).
+   If you encounter an error like "more columns than expected", open the .csv files and remove any blank columns (especially those on the far right).
 
 5. Execute the scripts mentioned in steps 3 and 5 above to complete the process.
 
