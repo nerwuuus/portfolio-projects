@@ -51,13 +51,11 @@ LIMIT 50;
 ## Power BI
 
 I connected Power BI to a local PostgreSQL server and the coffee_sales database. The data was cleaned and transformed, including extracting the month and year from the date field and combining them into a new column. Additionally, I used Copilot to assist in generating a DAX query that accurately categorised each transaction_time into the appropriate time of day.
-```DAX
+```PowerShell
 = Table.AddColumn(#"Extracted Month1", "Custom", each if [transaction_time] <= #time(12, 0, 0) then "Morning"
 else if [transaction_time] <= #time(18, 0, 0) then "Afternoon"
 else "Evening")
 ```
-![image](https://github.com/user-attachments/assets/f597996a-ce37-424e-8a2f-b2ccb6c62edb)
-
 
 **Dashboard**
 
