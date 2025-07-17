@@ -5,8 +5,8 @@ The main reasons for creating this file were:
 - Lack of a solution enabling the review of project statuses without obtaining data from multiple reports.
 - The need to create a file that would be presented during status meetings held every two weeks.
 ## General information
-This report includes various reports from ServiceNow such as Project Status, Project RAG (Red, Amber, Green) ratings, Milestones, Risks, Issues, and Project Change Requests (PCR). Report was created in March 2024.
-These six reports are downloaded from ServiceNow and uploaded to a dedicated folder on SharePoint. Using PowerQuery, the latest data is integrated into Excel (applied main steps: filter out Excel file names, show the latest uploaded files, keep only the first row).
+This report includes various reports from ServiceNow, such as Project Status, Project RAG (Red, Amber, Green) ratings, Milestones, Risks, Issues, and Project Change Requests (PCR). The report was created in March 2024.
+These six reports (Project Status, Project RAG (Red, Amber, Green) ratings, Milestones, Risks, Issues, and Project Change Requests (PCR)) are downloaded from ServiceNow and uploaded to a dedicated folder on SharePoint. Using PowerQuery, the latest data is integrated into Excel (applied main steps: filter out Excel file names, show the latest uploaded files, keep only the first row).
 ![image](https://github.com/user-attachments/assets/10a25461-c3b5-499c-831f-45584834de74)
 
 
@@ -25,14 +25,14 @@ PowerQuery queries:
 
 Visible Sheets:
 1. Governance Dashboard: Contains 12 charts (e.g., project RAG status, milestone status) and 2 tables (milestones completed and upcoming).
-```excel
+```PowerShell
 Governance Dashboard - Milestones to be completed table code:
 =IFERROR(SORT(CHOOSECOLS(FILTER(Milestones!A2:K237;(Milestones!K2:K237="To be completed")*(Milestones!F2:F237<>"Pending")*(Milestones!F2:F237<>"Pending Customer");"");1;2;4;6);3;1);"")
 
 ```
 3. Projects Dashboard: Features a table with project details (e.g., project manager, status, priority, project name).
 4. Milestones: Displays a table with all milestones (collected and manipulated using PowerQuery).
-```excel
+```PowerShell
 Milestones - Breached column:
 =IF([@[Percent complete]]=100%;"";IF(TODAY()>[@[Planned end date]];TEXTJOIN(" by ";TRUE;"Breached";TODAY()-D2)&" days";""))
 
