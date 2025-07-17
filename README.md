@@ -6,7 +6,8 @@ This branch contains documentation for the 'mnp' and 'inm' Excel reports, along 
 ## Issue resolution
 To address these challenges, I used Power Query in Excel to retrieve data directly from SharePoint and then loaded it into a PostgreSQL database for structured processing and analysis. This approach enabled:
    - Efficient consolidation of monthly data into unified reports.
-   - Significant improvements in reporting speed, data accuracy, and overall productivity. <br>
+   - Significant improvements in reporting speed, data accuracy, and overall productivity.
+<br><br> 
 The 'SQL' folder contains scripts used to create the database structure, including main tables, staging tables, and data transformation logic. It also includes several daily-use SQL queries that support ongoing operations.
 
 ## High-Level Overview of Excel-Based Data Integration, Database Staging and Update Process
