@@ -1,12 +1,12 @@
 ## Introduction
 This branch contains documentation for the 'mnp' and 'inm' Excel reports, along with the supporting database I developed during my tenure as a PMO Specialist. These reports are the most comprehensive I have created to date.
 ## Issue description
-   - The source data was originally distributed across dozens of Excel files, each representing a separate month of employee time registration, starting from April 2022 up to the present. This decentralized structure made data consolidation time-consuming and error-prone.
-   - The 'mnp' Excel report contains approximately 150,000 rows, with around 3,000 new rows added each month. The 'inm' report includes about 15,000 rows, growing by roughly 2,000 rows monthly. Both reports include key data such as employee name, SAP ID, approved and rejected hours, and project identifiers (WBS name and number). **Using Excel alone to retrieve or analyze this data had become increasingly slow and inflexible.**
+   - The source data was originally distributed across dozens of Excel files, each representing a separate month of employee time registration, starting from April 2022 up to the present. This decentralised structure made data consolidation time-consuming and prone to errors.
+   - The 'mnp' Excel report contains approximately 150,000 rows, with around 3,000 new rows added each month. The 'inm' report includes approximately 15,000 rows, with an addition of roughly 2,000 rows each month. Both reports include key data such as employee name, SAP ID, approved and rejected hours, and project identifiers (WBS name and number). **Using Excel alone to retrieve or analyse this data had become increasingly slow and inflexible.**
 ## Issue resolution
-To address these challenges, I used Power Query in Excel to retrieve data directly from SharePoint, and then loaded it into a PostgreSQL database for structured processing and analysis. This approach enabled:
+To address these challenges, I used Power Query in Excel to retrieve data directly from SharePoint and then loaded it into a PostgreSQL database for structured processing and analysis. This approach enabled:
    - Efficient consolidation of monthly data into unified reports.
-   - Significant improvements in reporting speed, data accuracy, and overall productivity. <br><br>
+   - Significant improvements in reporting speed, data accuracy, and overall productivity. <br>
 The 'SQL' folder contains scripts used to create the database structure, including main tables, staging tables, and data transformation logic. It also includes several daily-use SQL queries that support ongoing operations.
 
 ## High-Level Overview of Excel-Based Data Integration, Database Staging and Update Process
@@ -17,7 +17,7 @@ The 'SQL' folder contains scripts used to create the database structure, includi
 - Once the data is refreshed, the script saves the updated Excel files as mnp.csv and inm.csv on the desktop.
 
 **Import into PostgreSQL Staging Tables**
-- The CSV files are then imported into corresponding PostgreSQL staging tables (mnp_staging and inm_staging) for further processing.
+- The CSV files are then imported into the corresponding PostgreSQL staging tables (mnp_staging and inm_staging) for further processing.
 
 **Data Validation and Main Table Update**
 - After passing data quality checks, validated data is used to update the main database tables.
@@ -26,7 +26,7 @@ The 'SQL' folder contains scripts used to create the database structure, includi
 ## Data clean up and transformation steps in PowerQuery
 The imported data undergoes several transformation steps:
    - Blank rows are removed to ensure data cleanliness.
-   - Column names are standardized across both reports to maintain consistency.
+   - Column names are standardised across both reports to maintain consistency.
    - Date formats are converted to the default PostgreSQL format (YYYY-MM-DD).
    - Currency fields are converted to decimal format, using a period (.) as the decimal separator.
 ## Important information
@@ -114,7 +114,7 @@ Error 'Permission denied' while uploading data. Paste the below code in pgAdmin4
 ```
 
 # III. Database update
-1. Run the PowerShell script below to refresh the data in the INM and SharePoint_site2 reports and export them as .CSV files.<br>
+1. Run the PowerShell script below to refresh the data in the INM and SharePoint_site2 reports and export them as .csv files.<br>
 The data refresh duration can be adjusted as needed. The script includes an additional 1-minute buffer time for each file refresh to ensure completion (total runtime: 6 minutes — 3 minutes per file).
 For comparison, manually refreshing both files takes approximately 4 minutes (2 minutes per file).
 ```PowerShell
@@ -155,7 +155,7 @@ Write-Host "✅ Both files refreshed and saved as CSV on your desktop."
 
 2. Open the mnp and inm .csv files, and update date format to YYYY-MM-DD (or RRRR-MM-DD, depending on your system data settings). Excel often auto-formats dates incorrectly, so this manual adjustment is the most reliable (and easiest!) workaround. <br><br>
 
-3. Due to an error 'Permission denied', tables are updated manually. Open PSQL Tool in pgAdmin4 and update the mnp_staging and inm_staging tables. Tables will be updated with the latest data.<br>
+3. Due to an error, 'Permission denied', tables are updated manually. Open PSQL Tool in pgAdmin4 and update the mnp_staging and inm_staging tables. Tables will be updated with the latest data.<br>
 ```sql
 \copy inm_staging FROM 'C:\Users\(...)\(...)\Desktop\inm.csv' WITH (FORMAT csv, HEADER true, DELIMITER ';', ENCODING 'UTF8');
 
@@ -212,7 +212,7 @@ GROUP BY
 HAVING COUNT(*) > 1;
 ```
 
-6. Refresh combined table 'ess' and partitioned tables. Run SQL scripts (below) or open file named '3 Refresh production tables', and run it.
+6. Refresh the combined table 'ess' and partitioned tables. Run SQL scripts (below) or open the file named '3 Refresh production tables', and run it.
 ```sql
 -- Refresh data for ess table (main table)
 TRUNCATE TABLE ess;
