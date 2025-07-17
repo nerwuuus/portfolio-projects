@@ -1,5 +1,5 @@
 # General information
-This branch includes a selection of files/reports I made while completing Alex The Analyst's Bootcamp on YouTube. I focused on Tableau and Power BI. 
+This branch includes a selection of files/reports I made while completing Alex the Analyst's Bootcamp on YouTube. I focused on Tableau and Power BI. 
 
 
 ## Tableau
@@ -15,3 +15,9 @@ This project was my first project in Tableau, and I tried to follow every step p
 I developed this project to refresh and expand my Power BI skills. My final report features distinct colours, layouts, and charts compared to Alex the Analyst's version. 
 To create this report, I utilised survey data provided by Alex The Analyst ('Power BI - Final Project.xlsx'). Please see the attached file 'Power BI Survey Project.pbix'.
 ![image](https://github.com/user-attachments/assets/96e2fbbc-6ba1-4554-8ec7-1ab3e7a19cc1)
+
+## Stack
+- Microsoft Excel  
+- Power BI
+- Tableau  
+- GitHub
