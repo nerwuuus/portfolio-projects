@@ -1,4 +1,4 @@
-## Introduction
+# General information
 This branch contains documentation for the 'mnp' and 'inm' Excel reports, along with the supporting database I developed during my tenure as a PMO Specialist. These reports are the most comprehensive I have created to date.
 ## Issue description
    - The source data was originally distributed across dozens of Excel files, each representing a separate month of employee time registration, starting from April 2022 up to the present. This decentralised structure made data consolidation time-consuming and prone to errors.
