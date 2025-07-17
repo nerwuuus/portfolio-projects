@@ -52,4 +52,8 @@ Simple dashboard
 
 ![image](https://github.com/user-attachments/assets/91549f4a-181d-43e9-af87-a24ed14aebc1)
 
-
+## Stack
+- Microsoft Excel  
+- Power Query  
+- SharePoint
+- GitHub
