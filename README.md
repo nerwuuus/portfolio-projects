@@ -56,8 +56,7 @@ Hidden Sheets:
 
 ![image](https://github.com/user-attachments/assets/90e7e4aa-8331-4217-92d0-56b0637b6c0f)
 
-The 
-Power BI file takes data from the Program Board Meeting Excel file. Data is transformed in PowerQuery and visualised.
+The Power BI file takes data from the Program Board Meeting Excel file. Data is transformed in PowerQuery and visualised.
 
 ## Stack
 - Microsoft Excel  
@@ -65,3 +64,4 @@ Power BI file takes data from the Program Board Meeting Excel file. Data is tran
 - SharePoint
 - Power BI  
 - GitHub
+- ServiceNow
