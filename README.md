@@ -1,4 +1,4 @@
-# Introduction
+# General information
 This repository contains a Tableau project created at the end of a 21-hour YouTube course led by Baraa from the 'Data with Baraa' channel.
 
 
