@@ -104,7 +104,7 @@ GROUP BY
 ORDER BY
     day;
 ```
-Interestingly, during the analysis, I discovered that the pricing structure is consistent across all coffee shop locations—every product is sold at the same price regardless of the branch. Based on this observation, I concluded that the company likely follows a centralized pricing strategy. This could serve as a valuable foundation for further business analysis, such as exploring how location influences sales volume or customer preferences.
+Interestingly, during the analysis, I discovered that the pricing structure is consistent across all coffee shop locations—every product is sold at the same price regardless of the branch. Based on this observation, I concluded that the company likely follows a centralised pricing strategy. This could serve as a valuable foundation for further business analysis, such as exploring how location influences sales volume or customer preferences.
 ```sql
 /* The below SQL query clearly shows that prices are the same in every coffee shop.
 Coffee shop location doesn't affect on the price. */
