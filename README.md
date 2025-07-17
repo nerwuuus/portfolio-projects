@@ -1,7 +1,9 @@
 # General information
-A Service Activation is a tool used to monitor and manage the activation of services, systems, or facilities, ensuring that all necessary tasks and milestones are completed. The report was created in January 2024 and used until October 2024.
+A Service Activation is a web tool used to monitor and manage the activation of services, systems, or facilities, ensuring that all necessary tasks are completed. The data used in this report was sourced from the web-based Service Activation Tracker. Data was exported into an Excel file and loaded into the Service Activation Tracker file using PowerQuery. The report was created in January 2024 and was actively used until October 2024.
 ## Issue description
-Initially, this data was accessible via a web application. However, a significant issue arose: not every stakeholder had access to this tool or wanted to learn how to use it. What is more, getting data was difficult and time-consuming, and management required only high-level, detailed reports. To address these issues, I developed a Service Activation Tracker Excel file. Whenever requested, I exported data from the Service Activation application and uploaded it to SharePoint. The next step involved refreshing the data using PowerQuery to get the latest uploaded export, making the report ready to be shared. No visualisations were requested.
+Initially, the data was only accessible through a web-based application. However, a key challenge emerged: not all stakeholders had access to the Service Activation Tool, and many were reluctant to learn how to navigate it. Additionally, retrieving the data was difficult and time-consuming, while management primarily required high-level reports.
+## Issue resolution
+To address these issues, I developed a Service Activation Tracker in Excel. Upon request, I exported data from the Service Activation application and uploaded it to SharePoint. The report was then refreshed using Power Query, which automatically pulled the latest uploaded export, ensuring the data was always up to date and ready to be shared. No visualisations were required for this solution.
 
 It was my first report created that used PowerQuery, defined variables, a FILTER formula and multiple nested IFs:
 ```PowerShell
