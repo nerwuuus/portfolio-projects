@@ -126,7 +126,7 @@ GROUP BY
 ORDER BY
     max_price DESC;
 ```
-## Present results clearly with visualisations using Power BI dashboard
+## Present results clearly with visualisations using a Power BI dashboard
 
 ![image](https://github.com/user-attachments/assets/d5bb29a0-d0c2-48c4-8483-48a3603dca7e)
 ## Stack
@@ -135,5 +135,6 @@ ORDER BY
 - Power BI
 - Excel
 - GitHub
+- Copilot
 
 
