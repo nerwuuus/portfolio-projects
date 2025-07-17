@@ -1,4 +1,4 @@
-# Introduction
+# General information
 This branch includes a selection of files/reports I made while completing Alex The Analyst's Bootcamp on YouTube. I focused on Tableau and Power BI. 
 
 
