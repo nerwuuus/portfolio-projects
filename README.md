@@ -27,7 +27,12 @@ Visible Sheets:
 1. Governance Dashboard: Contains 12 charts (e.g., project RAG status, milestone status) and 2 tables (milestones completed and upcoming).
 ```PowerShell
 Governance Dashboard - Milestones to be completed table code:
-=IFERROR(SORT(CHOOSECOLS(FILTER(Milestones!A2:K237;(Milestones!K2:K237="To be completed")*(Milestones!F2:F237<>"Pending")*(Milestones!F2:F237<>"Pending Customer");"");1;2;4;6);3;1);"")
+=IFERROR(
+SORT(
+CHOOSECOLS(
+FILTER(
+Milestones!A2:K237;(Milestones!K2:K237="To be completed")*(Milestones!F2:F237<>"Pending")*(Milestones!F2:F237<>"Pending Customer");
+"");1;2;4;6);3;1);"")
 
 ```
 3. Projects Dashboard: Features a table with project details (e.g., project manager, status, priority, project name).
