@@ -57,9 +57,7 @@ else if [transaction_time] <= #time(18, 0, 0) then "Afternoon"
 else "Evening")
 ```
 
-**Dashboard**
 
-![image](https://github.com/user-attachments/assets/d5bb29a0-d0c2-48c4-8483-48a3603dca7e)
 
 ## Conclude the analysis
 I observed that sales across all coffee shop locations are influenced by the time of year. This seasonal trend suggests that customer behaviour and purchasing patterns vary throughout the year, which could be valuable for forecasting demand, planning promotions, or optimising inventory. 
@@ -128,8 +126,9 @@ GROUP BY
 ORDER BY
     max_price DESC;
 ```
+## Present results clearly with visualisations using Power BI dashboard
 
-
+![image](https://github.com/user-attachments/assets/d5bb29a0-d0c2-48c4-8483-48a3603dca7e)
 ## Stack
 - PostgreSQL
 - VSCode
