@@ -1,5 +1,5 @@
 This repository contains a collection of my portfolio projects, as well as Excel and Power BI reports created during my tenure as a PMO Specialist. 
-While working as a PMO Specialist, reports were developed to support project tracking, reporting, and data visualization, ensuring accurate and timely information for stakeholders.
+While working as a PMO Specialist, I developed reports to support project tracking, reporting, and data visualisation, ensuring accurate and timely information for stakeholders.
 
 
 ****Projects and reports are stored in separate branches. One branch = one project/one report:****
@@ -8,9 +8,9 @@ While working as a PMO Specialist, reports were developed to support project tra
 - coffee-sales - PostgreSQL scripts.
 - alex-the-analyst-bootcamp - Power BI and Tableau reports.
 - ess-time-registration - Excel report and some PostgreSQL scripts (work).
-- SQL-random-scripts - self explanatory, contains SQL random scripts.
+- SQL-random-scripts - self-explanatory, contains SQL random scripts.
 
 
 
-**Project manager names, project descriptions, and project names have been anonymized to protect sensitive information. PowerQuery connections were removed and are only available as screenshots (steps taken, number of queries).**
+**Project manager names, project descriptions, and project names have been anonymised to protect sensitive information. PowerQuery connections were removed and are only available as screenshots (steps taken, number of queries).**
 
