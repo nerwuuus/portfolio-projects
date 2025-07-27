@@ -15,6 +15,12 @@ These projects were a journey through key Power BI and Tableu features. I master
     -   **Drill-Through:** To navigate from a high-level summary to a contextual, detailed view.
 
 ### 1st project
+Page 1:
+<img width="1273" height="713" alt="image" src="https://github.com/user-attachments/assets/31e9701f-3012-4bdf-a8d5-62a5f853c9c9" />
+<br>
+Page 2:
+<img width="1272" height="713" alt="image" src="https://github.com/user-attachments/assets/220e30f4-f384-435d-b867-6e0b97348458" />
+
 
 ### 2nd project
 I developed this project to refresh and expand my Power BI skills. My final report features distinct colours, layouts, and charts compared to Alex the Analyst's version. 
