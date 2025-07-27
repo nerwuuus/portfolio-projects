@@ -3,12 +3,16 @@ While working as a PMO Specialist, I developed reports to support project tracki
 
 
 ****Projects and reports are stored in separate branches. One branch = one project/one report:****
-- program-status-report - Excel and Power BI reports (work).
+- main - the current branch.
+- SQL-random-scripts.
+- program-status-report - Excel and Power BI dashboard (work).
 - service-activation-tracker - Excel report (work).
-- coffee-sales - PostgreSQL scripts.
-- alex-the-analyst-bootcamp - Power BI and Tableau reports.
-- ess-time-registration - Excel report and some PostgreSQL scripts (work).
-- SQL-random-scripts - self-explanatory, contains SQL random scripts.
+- ess-time-registration - Excel report, SQL and PowerShell scripts (work).
+- coffee-sales - SQL scripts and simple Power BI dashboard. 
+- Tableau-and-Power-BI-beginner-dashboards - this branch showcases all the Tableau and Power BI dashboards I created while learning and exploring these tools.
+- Tableau-intermediate-dashboard. 
+
+
 
 
 
