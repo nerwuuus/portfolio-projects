@@ -24,7 +24,7 @@ To create this report, I utilised survey data provided by Alex The Analyst ('Pow
 
 
 ### 2nd project
-I developed this project to further expand my Power BI knowledge. This report is split into two distinct pages to provide both a high-level summary and a detailed analysis. You can find the file for the dashboard in *Files*, named as *Power BI Data Jobs Dashboard.pbix*.
+I developed this project to further expand my Power BI knowledge. This report is split into two distinct pages to provide both a high-level summary and a detailed analysis. You can find the file for the dashboard in *Files*, named as *Power BI Data Jobs Dashboard.pbix*.<br><br>
 Page 1:
 <img width="1273" height="713" alt="image" src="https://github.com/user-attachments/assets/31e9701f-3012-4bdf-a8d5-62a5f853c9c9" />
 <br><br>
