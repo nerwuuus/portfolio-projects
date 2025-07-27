@@ -3,10 +3,10 @@
 The main reasons for creating this file were:
 - Lack of access to ServiceNow by some internal stakeholders.
 - Lack of a solution enabling the review of project statuses without obtaining data from multiple reports.
-- The need to create a file that would be presented during status meetings (named as Program Board) held every two weeks.
+- The need to create a file that would be presented during status meetings (named as Program Board), held every two weeks.
 ## General information
 This report includes various reports from ServiceNow, such as Project Status, Project RAG (Red, Amber, Green) ratings, Milestones, Risks, Issues, and Project Change Requests (PCR). The report was created in March 2024.
-These six reports (Project Status, Project RAG (Red, Amber, Green) ratings, Milestones, Risks, Issues, and Project Change Requests (PCR)) are downloaded from ServiceNow and uploaded to a dedicated folder on SharePoint. Using PowerQuery, the latest data is integrated into Excel (applied main steps: filter out Excel file names, show the latest uploaded files, keep only the first row).
+These six reports (Project Status, Project RAG (Red, Amber, Green) ratings, Milestones, Risks, Issues, and Project Change Requests (PCR)) are downloaded from ServiceNow and uploaded to a dedicated folder on SharePoint. Using PowerQuery, the latest data is integrated into Excel (applied main steps: filter out Excel file names, show the latest uploaded files, keep only the first row). Simple Excel dashboard:
 ![image](https://github.com/user-attachments/assets/10a25461-c3b5-499c-831f-45584834de74)
 
 
