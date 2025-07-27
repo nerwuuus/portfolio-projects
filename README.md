@@ -33,7 +33,7 @@ Page 2:
 
 ## Tableau
 For the Tableau Project, I developed a dashboard using 2016 Seattle Airbnb data. I used data set downloaded from Kaggle: https://www.kaggle.com/datasets/airbnb/seattle
-This project was my first project in Tableau, and I tried to follow every step presented. Please see the attached file 'Airbnb 2016 Dashboard Project.twb' and 'Tableau Project.xlsx'.
+This project was my first project in Tableau, and I tried to follow every step presented. You can find the file for the dashboard in *Files*, named as *Airbnb 2016 Dashboard Project.twb*.
 ![image](https://github.com/user-attachments/assets/93fec265-87df-424a-b00f-c6d3a37fc074)
 
 
