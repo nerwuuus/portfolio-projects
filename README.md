@@ -1,8 +1,8 @@
 # General information
-This branch includes a selection of files/reports I made while completing Alex the Analyst's and Luke Barousse Tableau and Power BI courses on YouTube.
+This branch includes a selection of files/reports I made while completing Alex the Analyst's and Luke Barousse's Tableau and Power BI courses on YouTube.
 
 ## Power BI
-These projects were a journey through key Power BI and Tableu features. I mastered:
+These projects were a journey through key Power BI and Tableau features. I mastered:
 
 -   **Data Transformation (ETL) with Power Query:** Cleaned, shaped, and prepared the raw data for analysis by handling blanks, changing data types, and creating new columns.
 -   **Implicit Measures:** Formulated measures to derive key insights and KPIs like `Median Yearly Salary` and `Job Count`.
@@ -18,7 +18,8 @@ These projects were a journey through key Power BI and Tableu features. I master
 
 ### 1st project
 I developed this project to refresh and expand my Power BI skills. My final report features distinct colours, layouts, and charts compared to Alex the Analyst's version. 
-To create this report, I utilised survey data provided by Alex The Analyst ('Power BI - Final Project.xlsx'). You can find the file for the dashboard here [/Power BI Survey Project.pbix]
+To create this report, I utilised survey data provided by Alex The Analyst ('Power BI - Final Project.xlsx'). You can find the file for the dashboard here Power BI Survey Project.pbix
+
 ![image](https://github.com/user-attachments/assets/96e2fbbc-6ba1-4554-8ec7-1ab3e7a19cc1)
 
 
