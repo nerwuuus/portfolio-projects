@@ -18,13 +18,13 @@ These projects were a journey through key Power BI and Tableau features. I maste
 
 ### 1st project
 I developed this project to refresh and expand my Power BI skills. My final report features distinct colours, layouts, and charts compared to Alex the Analyst's version. 
-To create this report, I utilised survey data provided by Alex The Analyst ('Power BI - Final Project.xlsx'). You can find the file for the dashboard here Power BI Survey Project.pbix
+To create this report, I utilised survey data provided by Alex The Analyst ('Power BI - Final Project.xlsx'). You can find the file for the dashboard in *Files*, named as *Power BI Survey Project.pbix*.
 
 ![image](https://github.com/user-attachments/assets/96e2fbbc-6ba1-4554-8ec7-1ab3e7a19cc1)
 
 
 ### 2nd project
-I developed this project to further expand my Power BI knowledge. This report is split into two distinct pages to provide both a high-level summary and a detailed analysis. Please see the attached file 'Power BI .pbix'
+I developed this project to further expand my Power BI knowledge. This report is split into two distinct pages to provide both a high-level summary and a detailed analysis. You can find the file for the dashboard in *Files*, named as *Power BI Data Jobs Dashboard.pbix*.
 Page 1:
 <img width="1273" height="713" alt="image" src="https://github.com/user-attachments/assets/31e9701f-3012-4bdf-a8d5-62a5f853c9c9" />
 <br><br>
