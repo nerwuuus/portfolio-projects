@@ -110,7 +110,7 @@ ORDER BY
 Interestingly, during the analysis, I discovered that the pricing structure is consistent across all coffee shop locations—every product is sold at the same price regardless of the branch. Based on this observation, I concluded that the company likely follows a centralised pricing strategy. This could serve as a valuable foundation for further business analysis, such as exploring how location influences sales volume or customer preferences.
 ```sql
 /* The below SQL query clearly shows that prices are the same in every coffee shop.
-Coffee shop location doesn't affect on the price. */
+The coffee shop location doesn't affect the price. */
 SELECT
     store_location,
     product_id,
@@ -129,7 +129,7 @@ GROUP BY
 ORDER BY
     max_price DESC;
 ```
-## Present results clearly with visualisations using a Power BI dashboard
+## Present results using a Power BI dashboard
 
 ![image](https://github.com/user-attachments/assets/d5bb29a0-d0c2-48c4-8483-48a3603dca7e)
 ## Stack
