@@ -277,7 +277,7 @@ WHERE EXTRACT(YEAR FROM date) = 2025;
 
 
 
-## ⚠️ If the PowerShell script didn’t work, follow the steps below manually
+## ⚠️ If the PowerShell script didn’t work, follow the steps below
 1. Save Files as UTF-8 CSV. Export the mnp and inm files in .csv format with UTF-8 encoding.
 
 2. Adjust Date Format. Open both .csv files and change the date format to YYYY-MM-DD (or RRRR-MM-DD, depending on your system settings).
