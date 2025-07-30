@@ -6,14 +6,16 @@ WITH last_month_approved_hours AS (
         TO_CHAR(date, 'MM-YYYY') = TO_CHAR(CURRENT_DATE - INTERVAL '1 month', 'MM-YYYY')
         AND status = 'Approved'
 )
-SELECT 
+SELECT
     name,
-    date,
-    status,
     wbs,
-    hours,
-    SUM(hours) OVER (PARTITION BY name) AS hours_wbs
-FROM last_month_approved_hours;
+    SUM(hours)
+FROM last_month_approved_hours
+GROUP BY
+    name,
+    wbs
+
+
 
 
 
