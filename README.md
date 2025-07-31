@@ -124,7 +124,7 @@ $excel = New-Object -ComObject Excel.Application
 $excel.Visible = $false
 $excel.DisplayAlerts = $false
 
-\# --- SharePoint_site2 File ---
+# --- SharePoint_site2 File ---
 $mnpSource = "C:\Users\(...)\(...)\SharePoint_site\SharePoint_site2\mnp.xlsx"
 $mnpCSV = "C:\Users\(...)\(...)\Desktop\mnp.csv"
 
@@ -135,7 +135,7 @@ $mnpSheet = $mnpWorkbook.Worksheets.Item(1)
 $mnpSheet.SaveAs($mnpCSV, 6)
 $mnpWorkbook.Close($false)
 
-\# --- INM File ---
+# --- iNM File ---
 $inmSource = "C:\Users\(...)\(...)\SharePoint_site\SharePoint_site2\inm.xlsx"
 $inmCSV = "C:\Users\(...)\(...)\Desktop\inm.csv"
 
@@ -146,7 +146,7 @@ $inmSheet = $inmWorkbook.Worksheets.Item(1)
 $inmSheet.SaveAs($inmCSV, 6)
 $inmWorkbook.Close($false)
 
-\# --- Cleanup ---
+# --- Cleanup ---
 $excel.Quit()
 \[System.Runtime.Interopservices.Marshal]::ReleaseComObject($excel) | Out-Null
 
@@ -230,7 +230,7 @@ HAVING COUNT(*) > 1;
 
 6. Refresh the combined table 'ess' and partitioned tables. Run SQL scripts (below) or open the file named '3 Refresh production tables', and run it.
 ```sql
--- Refresh data for ess table (main table)
+-- Refresh data for the ess table (main table)
 TRUNCATE TABLE ess;
 
 -- Insert combined data from mnp and inm into ess
