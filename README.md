@@ -24,7 +24,7 @@ The 'SQL' folder contains scripts used to create the database structure, includi
 - After passing data quality checks, validated data is used to update the main database tables.
 
 # I. Excel file and PowerQuery
-## Data clean up and transformation steps in PowerQuery
+## Data clean-up and transformation steps in PowerQuery
 The imported data undergoes several transformation steps:
    - Blank rows are removed to ensure data cleanliness.
    - Column names are standardised across both reports to maintain consistency.
@@ -233,10 +233,17 @@ HAVING COUNT(*) > 1;
 -- Refresh data for ess table (main table)
 TRUNCATE TABLE ess;
 
+-- Insert combined data from mnp and inm into ess
+WITH combined_data AS (
+    SELECT name, nessie, date, status, wbs, wbs_description, hours 
+    FROM mnp
+    UNION
+    SELECT name, nessie, date, status, wbs, wbs_description, hours 
+    FROM inm
+)
 INSERT INTO ess (name, nessie, date, status, wbs, wbs_description, hours)
-SELECT name, nessie, date, status, wbs, wbs_description, hours FROM mnp
-UNION
-SELECT name, nessie, date, status, wbs, wbs_description, hours FROM inm;
+SELECT *
+FROM combined_data;
 
 -- Create (partition) tables if they don't exist
 CREATE TABLE IF NOT EXISTS ess_2022 AS
