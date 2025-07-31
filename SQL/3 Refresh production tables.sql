@@ -10,10 +10,18 @@ CREATE TABLE IF NOT EXISTS ess AS (
 -- Refresh data for ess table (main table)
 TRUNCATE TABLE ess;
 
+
+-- Insert combined data from mnp and inm into ess
+WITH combined_data AS (
+    SELECT name, nessie, date, status, wbs, wbs_description, hours 
+    FROM mnp
+    UNION
+    SELECT name, nessie, date, status, wbs, wbs_description, hours 
+    FROM inm
+)
 INSERT INTO ess (name, nessie, date, status, wbs, wbs_description, hours)
-SELECT name, nessie, date, status, wbs, wbs_description, hours FROM mnp
-UNION
-SELECT name, nessie, date, status, wbs, wbs_description, hours FROM inm;
+SELECT *
+FROM combined_data;
 
 -- Create (partition) tables if they don't exist
 CREATE TABLE IF NOT EXISTS ess_2022 AS
