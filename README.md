@@ -125,8 +125,8 @@ $excel.Visible = $false
 $excel.DisplayAlerts = $false
 
 \# --- SharePoint_site2 File ---
-$mnpSource = "C:\\Users\\(...)\\(...)\\SharePoint_site\\SharePoint_site2\\mnp.xlsx"
-$mnpCSV = "C:\\Users\\(...)\\(...)\\Desktop\\mnp.csv"
+$mnpSource = "C:\Users\(...)\(...)\SharePoint_site\SharePoint_site2\mnp.xlsx"
+$mnpCSV = "C:\Users\(...)\(...)\Desktop\mnp.csv"
 
 $mnpWorkbook = $excel.Workbooks.Open($mnpSource)
 $mnpWorkbook.RefreshAll()
@@ -136,8 +136,8 @@ $mnpSheet.SaveAs($mnpCSV, 6)
 $mnpWorkbook.Close($false)
 
 \# --- INM File ---
-$inmSource = "C:\\Users\\(...)\\(...)\\SharePoint_site\\SharePoint_site2\\inm.xlsx"
-$inmCSV = "C:\\Users\\(...)\\(...)\\Desktop\\inm.csv"
+$inmSource = "C:\Users\(...)\(...)\SharePoint_site\SharePoint_site2\inm.xlsx"
+$inmCSV = "C:\Users\(...)\(...)\Desktop\inm.csv"
 
 $inmWorkbook = $excel.Workbooks.Open($inmSource)
 $inmWorkbook.RefreshAll()
