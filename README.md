@@ -195,40 +195,7 @@ WHERE EXTRACT(MONTH FROM date) = 7
 
 ```
 
-5. Run these scripts to ensure there are no duplicates:
-```sql
--- Check if duplicates were inserted mnp
-SELECT 
-    *, 
-    COUNT(*) 
-FROM mnp
-GROUP BY 
-    name,
-    nessie,
-    date,
-    status,
-    wbs,
-    wbs_description,
-    hours
-HAVING COUNT(*) > 1;
-
--- Check if duplicates were inserted inm
-SELECT 
-    *, 
-    COUNT(*) 
-FROM inm
-GROUP BY 
-    name,
-    nessie,
-    date,
-    status,
-    wbs,
-    wbs_description,
-    hours
-HAVING COUNT(*) > 1;
-```
-
-6. Refresh the combined table 'ess' and partitioned tables. Run SQL scripts (below) or open the file named '3 Refresh production tables', and run it.
+5. Refresh the combined table 'ess' and partitioned tables. Run SQL scripts (below) or open the file named '3 Refresh production tables', and run it.
 ```sql
 -- Refresh data for the ess table (main table)
 TRUNCATE TABLE ess;
