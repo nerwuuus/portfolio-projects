@@ -1,5 +1,6 @@
 For 'HourlyRate' column calculation, I used Copilot to help me generate the below formula:
 
+```PowerShell
 =LET(
     value; B2;
     result1; XLOOKUP(value; 'WFM 2021-2024'!A:A; 'WFM 2021-2024'!C:C; "");
@@ -15,3 +16,4 @@ For 'HourlyRate' column calculation, I used Copilot to help me generate the belo
 =IFNA(
 INDEX('Standby WBS'!$A$1:$C$9;MATCH([@WBS];'Standby WBS'!$A$1:$A$9;0);3);
 "No")
+```
