@@ -282,7 +282,6 @@ WHERE EXTRACT(YEAR FROM date) = 2025;
 ## Stack
 - Microsoft Excel  
 - PowerQuery  
-- DAX  
 - PostgreSQL, pgAdmin4  
 - Visual Studio Code  
 - PowerShell  
