@@ -31,6 +31,11 @@ Page 1:
 Page 2:
 <img width="1272" height="713" alt="image" src="https://github.com/user-attachments/assets/220e30f4-f384-435d-b867-6e0b97348458" />
 
+### 3rd project
+This is a refined version of the 2nd dashboard. I used parameters to filter out the data displayed on visuals.
+<img width="1422" height="777" alt="image" src="https://github.com/user-attachments/assets/a9c75290-3d0e-4bde-b82b-5728eee13a49" />
+
+
 ## Tableau
 For the Tableau Project, I developed a dashboard using 2016 Seattle Airbnb data. I used data set downloaded from Kaggle: https://www.kaggle.com/datasets/airbnb/seattle
 This project was my first project in Tableau, and I tried to follow every step presented. You can find the file for the dashboard in *Files*, named as *Airbnb 2016 Dashboard Project.twb*.
