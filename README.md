@@ -1,5 +1,5 @@
 # General information
-This branch includes a selection of files/reports I made while completing Alex the Analyst's and Luke Barousse's Tableau and Power BI courses on YouTube.
+This branch includes a selection of files/reports I made while completing Alex the Analyst's Tableau & Power BI and Luke Barousse's Power BI courses on YouTube.
 
 ## Power BI
 These projects were a journey through key Power BI and Tableau features. I mastered:
