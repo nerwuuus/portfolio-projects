@@ -32,7 +32,7 @@ Page 2:
 <img width="1272" height="713" alt="image" src="https://github.com/user-attachments/assets/220e30f4-f384-435d-b867-6e0b97348458" />
 
 ### 3rd project
-This is a refined version of the 2nd dashboard. I used parameters to filter out the data displayed on visuals. I used a built-in dark mode. You can find the file for the dashboard in *Files*, named as *Power BI Data Jobs Dashboard 2.0.pbix*.
+This is a refined version of the 2nd dashboard. I used parameters to filter out the data displayed on visuals. I used a built-in dark mode. The Power BI file could not be uploaded due to its large size (over 37 MB).
 <img width="1422" height="777" alt="image" src="https://github.com/user-attachments/assets/a9c75290-3d0e-4bde-b82b-5728eee13a49" />
 
 
