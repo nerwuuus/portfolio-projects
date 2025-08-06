@@ -14,8 +14,6 @@ These projects were a journey through key Power BI and Tableau features. I maste
     -   **Buttons & Bookmarks:** To create a seamless navigation experience.
     -   **Drill-Through:** To navigate from a high-level summary to a contextual, detailed view.
 
-
-
 ### 1st project
 I developed this project to refresh and expand my Power BI skills. My final report features distinct colours, layouts, and charts compared to Alex the Analyst's version. 
 To create this report, I utilised survey data provided by Alex The Analyst ('Power BI - Final Project.xlsx'). You can find the file for the dashboard in *Files*, named as *Power BI Survey Project.pbix*.
@@ -42,9 +40,3 @@ This project was my first project in Tableau, and I tried to follow every step p
 ![image](https://github.com/user-attachments/assets/93fec265-87df-424a-b00f-c6d3a37fc074)
 
 
-
-## Stack
-- Microsoft Excel  
-- Power BI
-- Tableau  
-- GitHub
