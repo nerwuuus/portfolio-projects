@@ -7,7 +7,6 @@ While working as a PMO Specialist, I developed reports to support project tracki
 - program-status-report - Excel and Power BI dashboard (work).
 - service-activation-tracker - Excel report (work).
 - ess-time-registration - Excel report, SQL and PowerShell scripts (work).
-- coffee-sales-beginner-project - SQL scripts and simple Power BI dashboard. 
 - Tableau-and-Power-BI-beginner-dashboards - this branch showcases all the Tableau and Power BI dashboards I created while learning and exploring these tools.
 - Tableau-intermediate-dashboard. 
 
