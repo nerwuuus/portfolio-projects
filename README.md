@@ -80,10 +80,10 @@ CREATE TABLE IF NOT EXISTS ess AS (
     FROM mnp
 );
 ```
-## First data insert
+## Data insert
 ```sql
--- Insert data into table 'inm'
-COPY inm 
+-- Insert data into staging table 'inm_staging'
+COPY inm_staging
 FROM 'C:\Users\(...)\(...)\Desktop\inm.csv'
 WITH (
     FORMAT csv, 
@@ -92,8 +92,8 @@ WITH (
     ENCODING 'UTF8'
 );
 
--- Insert data into table 'mnp'
-COPY mnp 
+-- Insert data into staging table 'mnp_staging'
+COPY mnp_staging 
 FROM 'C:\Users\(...)\(...)\Desktop\mnp.csv'
 WITH (
     FORMAT csv, 
@@ -104,11 +104,11 @@ WITH (
 
 /* 
 
-Error 'Permission denied' while uploading data. Paste the below code in pgAdmin4, PSQL Tool to load data manually:
-\copy inm FROM 'C:\Users\(...)\(...)\Desktop\inm.csv' WITH (FORMAT csv, HEADER true, DELIMITER ';', ENCODING 'UTF8');
+Error 'Permission denied' while uploading data. Paste the code below in pgAdmin4, PSQL Tool to load data manually:
+\copy inm_staging FROM 'C:\Users\(...)\(...)\Desktop\inm.csv' WITH (FORMAT csv, HEADER true, DELIMITER ';', ENCODING 'UTF8');
 
-Error 'Permission denied' while uploading data. Paste the below code in pgAdmin4, PSQL Tool to load data manually:
-\copy mnp FROM 'C:\Users\(...)\(...)\Desktop\mnp.csv' WITH (FORMAT csv, HEADER true, DELIMITER ';', ENCODING 'UTF8');
+Error 'Permission denied' while uploading data. Paste the code below in pgAdmin4, PSQL Tool to load data manually:
+\copy mnp_staging FROM 'C:\Users\(...)\(...)\Desktop\mnp.csv' WITH (FORMAT csv, HEADER true, DELIMITER ';', ENCODING 'UTF8');
 
 */
 
