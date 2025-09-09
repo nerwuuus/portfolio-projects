@@ -16,3 +16,43 @@ While working as a PMO Specialist, I developed reports to support project tracki
 
 **Project manager names, project descriptions, and project names have been anonymised to protect sensitive information. PowerQuery connections were removed and are only available as screenshots (steps taken, number of queries).**
 
+###📂 portfolio-projects Repository Structure
+```
+portfolio-projects/
+│
+├── main/                               
+│   ├── README.md                       
+│
+├── Tableau-and-Power-BI-beginner-dashboards/    
+│   ├── README.md                       
+│   ├── Airbnb 2016 Dashboard Project.twb
+│   ├── Power BI - Data Jobs Dashboard.pbix
+│   ├── Power BI - Final Project.xlsx
+│   ├── Power BI Survey Project.pbix
+│   ├── Tableau Project.xlsx
+│
+├── Tableau-intermediate-dashboard/     
+│   ├── README.md                       
+│   ├── Sales dashboard.twb
+│
+├── ess-time-registration/              
+│   ├── README.md                       
+│   ├── SQL
+│       ├── Database set-up
+│       ├── WBS analytics
+│   ├── 1 Update production tables.sql
+│   ├── 2 Duplicates check.sql
+│   ├── 3 Refresh production tables.sql
+│
+├── program-status-report/                                        
+│   ├── README.md                       
+│   ├── Applied steps PowerQuery.png
+│   ├── List of PowerQuery queries.png
+│   ├── Program Board Meeting.pbix
+│   ├── Program Board Meeting.xlsx
+│
+├── service-activation-tracker/         
+│   ├── README.md                       
+│   ├── Service Activation Tracker.xlsx
+│
+```
