@@ -1,5 +1,5 @@
 # General information
-A Service Activation is a web tool used to monitor and manage the activation of services, systems, or facilities, ensuring that all necessary tasks are completed. The data used in this report was sourced from the web-based Service Activation Tracker. Data was exported into an Excel file and loaded into the Service Activation Tracker file using PowerQuery. The report was created in January 2024 and was actively used until October 2024.
+A Service Activation is a web tool used to monitor and manage the activation of services, systems, or facilities, ensuring that all necessary tasks are completed. The data used in this report was sourced from the web-based Service Activation Tracker. Data was exported into an Excel file and loaded into the Service Activation Tracker file using PowerQuery. 
 ## Issue description
 Initially, the data was only accessible through a web-based application. However, a key challenge emerged: not all stakeholders had access to the Service Activation Tool, and many were reluctant to learn how to navigate it. Additionally, retrieving the data was difficult and time-consuming, while management primarily required high-level reports.
 ## Issue resolution
