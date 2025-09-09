@@ -16,7 +16,7 @@ While working as a PMO Specialist, I developed reports to support project tracki
 
 **Project manager names, project descriptions, and project names have been anonymised to protect sensitive information. PowerQuery connections were removed and are only available as screenshots (steps taken, number of queries).**
 
-###📂 portfolio-projects Repository Structure
+### 📂 portfolio-projects Repository Structure
 ```
 portfolio-projects/
 │
